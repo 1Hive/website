@@ -22,42 +22,6 @@ This will require posts, comments, search, and categories or tags.
 
 In addition each post may support a number of more complex interactions than just upvote or downvote, depending on the post type. 
 
-### Types of content and operations
-* **Disputes**
-    * Discuss
-    * Approve 
-    * Deny
-    * Abstain
-    * Tag
-    * Report
-* **Bounty**
-    * Discuss
-    * Fund
-    * Promote
-    * Demote
-    * Tag
-    * Report 
-* **Bounty Claim**
-    * Discuss
-    * Approve
-    * Deny
-    * Abstain
-    * Tag
-    * Report
-* **Topic**
-    * Discuss
-    * Tip
-    * Promote
-    * Demote
-    * Tag
-    * Report
-* **Project**
-    * Discuss
-    * Fund
-    * Exchange
-    * Tag
-    * Report
-
 ### Mockups 
 
 ## Feedback and Discussion
