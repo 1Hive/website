@@ -1,27 +1,21 @@
-# 1Hive Community Portal
-## Goal
-The goal of the 1Hive community portal is to provide a user friendly and engaging interface where everyone is able to discuss and participate in Hive Commons. 
+## Our Projects
+[Apiary](https://github.com/1Hive/Apiary) - A curation market platform for the creation and funding of DAOs built on Aragon. It enables entrepreneurs and activists to share their vision and attract high quality collaborators.
 
-## User Stories
-As a user I want to be able to post a link or text based article that will start a discussion. 
+[BeeID](https://github.com/1Hive/BeeID) - A decentralized sybil-resistant identity protocol. Users apply for a BeeID by linking their social profiles to a TCR and curators use social graph analysis to determine if a user is a unique person. The list can be used by other dapps and protocols that require a decentralized sybil resistant identity attestation.
 
-As a user I want to be able to curate posts, bringing attention to the most interesting content. 
+[Hive Commons](https://github.com/1Hive/Hive-Commons) - Is a token for public good. Honey (HNY) is issued based on proof of individuality ([BeeID](https://github.com/1Hive/BeeID)) and is guaranteed to always converge back to an even distribution over time. This unique distribution can be used to create public interest applications like conservation certifications or novel public software licenses which transfer the economic value of public goods back to the public. 
 
-As a user I want to seamlessly move from funding projects and tasks, voting in arbitration and governance, and discussing and curating ideas. 
+## Friends and Family
+[aragonOS](https://wiki.aragon.one/documentation/aragonOS/) - An open source smart-contract development framework focused on upgradability, modularity, and governance.
 
-As a user I want to be able to organize information into groups and only see what I’m most interested in. 
+[Aragon Network](https://aragon.one/network/) - The first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country.
 
-As a user I want to be able to be rewarded for my contributions to the community. 
+[Harbour](https://www.harbourproject.io) - A smart-contract framework focused on voting that supports several democratic forms, decision mechanisms, plurality rules.
 
-As a user I do not want to deal with bot accounts, sybil attacks, astroturfing, or other malicious network attacks. 
+[Giveth](https://giveth.io) - is a decentralized altruistic community that is reengineering charitable giving by enabling nonprofits to create a high level of transparency and accountability towards givers.
 
-## Functional and Technical Requirements
-1Hive will ultimately look and feel a bit like a web3.0 enabled reddit, where content is curated and organized into sub-communities by members. 
+[Colony](https://colony.io) - is infrastructure for the future of work: self-organizing companies that run via software, not paperwork.
 
-This will require posts, comments, search, and categories or tags. 
+[Democracy Earth](https://www.democracy.earth) - an open-source peer to peer liquid democracy platform.
 
-In addition each post may support a number of more complex interactions than just upvote or downvote, depending on the post type. 
-
-### Mockups 
-
-## Feedback and Discussion
+[Swarm City](https://swarm.city) - is a decentralized peer-to-peer commerce platform designed to disintermediate the gig economy.
