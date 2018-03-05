@@ -17,7 +17,7 @@ We believe in **open source** and that the cross-pollination of effort and ideas
 
 [Aragon Network](https://aragon.one/network/) - The first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country.
 
-[Harbour](https://www.harbourproject.io) - A smart-contract framework focused on voting that supports several democratic forms, decision mechanisms, plurality rules.
+[Harbour](https://www.harbourproject.io) - An open source smart-contract framework focused on voting that supports several democratic forms, decision mechanisms, plurality rules.
 
 [Giveth](https://giveth.io) - is a decentralized altruistic community that is reengineering charitable giving by enabling nonprofits to create a high level of transparency and accountability towards givers.
 
