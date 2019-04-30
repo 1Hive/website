@@ -1,12 +1,6 @@
-# 1Hive Organization Handbook
-
-1Hive is a public community organization operating on [Aragon](aragon.org). We are dedicated to supporting a future that is more free, fair, and open. We contribute to education, research, and development related to open source software which we believe will have a positive impact on society. Anyone is welcome to contribute.
-
-The following handbook will help provide the information and resources you need to get involved.
-
 ## Keybase Team 💬
 
-We use keybase to communicate. Before reading further you should join our community and introduce yourself.
+We use keybase to communicate. Before reading further you should join our community and introduce yourself! 
 
 > search for `1hive` in keybase
 
