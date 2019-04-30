@@ -1,5 +1,5 @@
 ## About
-1Hive is research and development organization dedicated to supporting a future that is more free, fair, and open. 
+1Hive is research and development organization dedicated to supporting a future that is more free, fair, and open.
 
 We believe in **open source** and that the cross-pollination of effort and ideas across projects leads to a more robust ecosystem.
 
