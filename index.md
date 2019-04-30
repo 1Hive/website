@@ -1,5 +1,5 @@
 ## Hi 👋
-We are a public community organization operating on [Aragon](aragon.org).
+We are a public community organization operating on [Aragon](https://aragon.org).
 
 We are dedicated to supporting a future that is more **free**, **fair**, and **open**.
 
@@ -8,7 +8,7 @@ We contribute to **education**, **research**, and **development** of open source
 Sound cool? [Join us.](handbook.md)
 
 ### Our Projects
-[1Hive](https://rinkeby.aragon.org/#/onehive.aragonid.eth) - Our home on Aragon. We are experimenting with and documenting processes and tools developed by [Autark](autark.xyz) and [Aragon One](aragon.one) to coordinate effort in an on-chain cooperative.
+[1Hive](https://rinkeby.aragon.org/#/onehive.aragonid.eth) - Our home on Aragon. We are experimenting with and documenting processes and tools developed by [Autark](https://autark.xyz) and [Aragon One](https://aragon.one) to coordinate effort in an on-chain cooperative.
 **Status:** 👨‍🔬 *Testing*
 
 [Apiary](https://github.com/1Hive/Apiary) - Apiary is mechanism for accountable crowdfunding using bonding curves and a continuous tap. Aragon has funded the [Aragon Black](https://aragon.black) team to implement Apiary as a [fundraising application](https://github.com/aragonblack/fundraising) available to Aragon Organizations.
