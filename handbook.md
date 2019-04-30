@@ -15,7 +15,7 @@ We use keybase to communicate. Before reading further you should join our commun
 | #announcements |  *Read only* intended only for announcements 📣 |
 | #intros | A great place to say hi for the first time 👋  |
 | #general | A catchall for discussion that doesn't fit elsewhere ✌ |
-| #commons | Discussion related to the harberger [commons license](https://medium.com/hive-commons/harberger-taxation-and-open-source-58dcdbab140d) 🐝 |
+| #commons | Discussion related to building a sustainable open source commons 🌼 |
 | #dev | Discussion related to software development 👨‍💻 |
 | #legal | Discussion related to legal hacking ⚖|
 | #nominations| Nominate members for weekly community allocations 🙏|
@@ -30,7 +30,7 @@ Members are expected to remain actively engaged and are **required** to particip
 
 > ⚠️ The configuration of the organization is still being tested and many of the applications being utilized have not been audited or officially released. The organization will be migrated to mainnet when the process and applications are considered stable. Membership and balances of Honey will be moved to the new organization when this happens.
 
-### Projects and Tasks
+### Projects and Tasks 🤹‍♂️
 
 The organization works on various projects. Each project is represented by a github repo and each project task is represented by a github issue. The **Projects** application is used to fund and manage a task's lifecycle.
 
@@ -54,7 +54,7 @@ Workers are expected to review tasks and ask clarifying questions about the requ
 
 Once accepted they should ask for help if they need it and they should keep track of the time they spend and report this time when submitting their work. While time tracking may seem tedious, it provides a critical feedback loop that allows curators and reviewers to more accurately scope and assign tasks, and accurately scoped and assigned tasks ensure that workers are fairly compensated for their effort.
 
-### Community Allocation and Payroll
+### Community Allocation and Payroll 💸
 
 Many types of contributions do not fit well into a rigidly defined atomic task model. The efforts of Curators and Reviewers, the deployment and ongoing operational costs of maintaining infrastructure such as website or Ethereum node, or the ad-hoc nature of community and social engagement. These contributions are critical to the success of 1Hive and must also be rewarded. We use two different mechanism to compensate members for these types of contributions.
 
@@ -68,6 +68,6 @@ Members should nominate other members and provide an anecdote for why they are m
 #### Expectations for Payroll
  Payroll is intended to provide a baseline compensation level for consistent contributors. Payroll is in addition to any compensation earned through tasks or allocations, and therefore should not be compared to an equivalent salary. Members who are added to payroll should have a clearly defined scope of recurring work which is consistent with their payroll allotment. A member who has been added to Payroll can choose to claim their allotment in any treasury asset, including `Honey`.
 
-### Long-term Rewards
+### Long-term Rewards 🍯
 
 1Hive may pursue projects which have the potential to generate future revenue. These revenue streams will be directed to the treasury. `Honey` can be redeemed for a proportional share of the current treasury assets, but if there is consensus among members treasury assets can also be distributed proportionally to `Honey` holders using the **Rewards** application. This encourages members to seek sustainable revenue streams and grow the project over a long time horizon.
