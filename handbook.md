@@ -2,7 +2,7 @@
 
 We use keybase to communicate. Before reading further you should join our community and introduce yourself!
 
-> search for `1hive` in keybase
+> ⚠️ Search for `1hive` in keybase
 
 | Channel   |     Topic      |
 |----------|-------------|
