@@ -1,6 +1,6 @@
 ## Keybase Team 💬
 
-We use keybase to communicate. Before reading further you should join our community and introduce yourself! 
+We use keybase to communicate. Before reading further you should join our community and introduce yourself!
 
 > search for `1hive` in keybase
 
@@ -8,7 +8,7 @@ We use keybase to communicate. Before reading further you should join our commun
 |----------|-------------|
 | #announcements |  *Read only* intended only for announcements 📣 |
 | #intros | A great place to say hi for the first time 👋  |
-| #general | A catchall for discussion that doesn't fit elsewhere ✌ |
+| #general | A catchall for discussion that doesn't fit elsewhere 🤙 |
 | #commons | Discussion related to building a sustainable open source commons 🌼 |
 | #dev | Discussion related to software development 👨‍💻 |
 | #legal | Discussion related to legal hacking ⚖|
@@ -52,7 +52,7 @@ Once accepted they should ask for help if they need it and they should keep trac
 
 Many types of contributions do not fit well into a rigidly defined atomic task model. The efforts of Curators and Reviewers, the deployment and ongoing operational costs of maintaining infrastructure such as website or Ethereum node, or the ad-hoc nature of community and social engagement. These contributions are critical to the success of 1Hive and must also be rewarded. We use two different mechanism to compensate members for these types of contributions.
 
-On a weekly basis, we use the **Allocations** application to distribute a fixed amount of `Honey` between a set of nominated recipients. The weekly allocations amount is determined by `Bee` vote, and the proportional weighting are determined by using the **Dot Voting** application. Any member of the organization can nominate any other member for an allocation period simply by saying so in the keybase #nominations channel. An *Allocations Admin* is responsible for creating the weekly allocations vote and including all nominees each Monday.
+On a weekly basis, we use the **Allocations** application to distribute a fixed amount of `Honey` between a set of nominated recipients. The weekly allocations amount is determined by `Bee` vote, and then split between nominees using the **Dot Voting** application. Any member of the organization can nominate any other member for an allocation period simply by saying so in the keybase #nominations channel. An *Allocations Admin* is responsible for creating the weekly allocations vote and including all nominees each Monday.
 
 Allocations are useful for rewarding ad-hoc contributions or exemplary behavior above and beyond normal expectations. However, there is an expectation of basic duties associated with certain roles including Curators, Reviewers, and members who maintain the organization's infrastructure. These behaviors are best compensated with recurring payments through the **Payroll** application.
 
