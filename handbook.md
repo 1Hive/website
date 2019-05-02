@@ -16,7 +16,7 @@ We use keybase to communicate. Before reading further you should join our commun
 
 ## Membership 🐝
 
-Established community members can request formal membership in the 1Hive organization that is currently [deployed on rinkeby](https://rinkeby.aragon.org/#/onehive.aragonid.eth). Formal members are identified by a non-transferrable `Bee` token, which grants them various rights related to the governance of the 1Hive organization.
+Established community members can request formal membership in the 1Hive organization that is currently [deployed on rinkeby](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211). Formal members are identified by a non-transferrable `Bee` token, which grants them various rights related to the governance of the 1Hive organization.
 
 Members are expected to remain actively engaged and are **required** to participate in governance decisions. If a member becomes inactive, the remaining members should vote to remove them. Members are responsible for minting and budgeting `Honey`, a separate transferrable token issued by the organization.
 

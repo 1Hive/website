@@ -8,7 +8,7 @@ We contribute to **education**, **research**, and **development** of open source
 Sound cool? [Join us.](handbook.md)
 
 ### Our Projects
-[1Hive](https://rinkeby.aragon.org/#/onehive.aragonid.eth) - Our home on Aragon. We are experimenting with and documenting processes and tools developed by [Autark](https://autark.xyz) and [Aragon One](https://aragon.one) to coordinate effort in an open on-chain cooperative.
+[1Hive](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211) - Our home on Aragon. We are experimenting with and documenting processes and tools developed by [Autark](https://autark.xyz) and [Aragon One](https://aragon.one) to coordinate effort in an open on-chain cooperative.
 **Status:** 👨‍🔬 *Testing*
 
 [Apiary](https://github.com/1Hive/Apiary) - Apiary is a mechanism for accountable crowdfunding using bonding curves and a continuous tap. Aragon has funded the [Aragon Black](https://aragon.black) team to implement Apiary as a [fundraising application](https://github.com/aragonblack/fundraising) available to Aragon Organizations.
