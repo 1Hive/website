@@ -1,6 +1,6 @@
 ---
 id: harberger-taxes
-sidebar_title: Harberger Taxes
+sidebar_label: Harberger Taxes
 title: Harberger Taxes
 ---
 

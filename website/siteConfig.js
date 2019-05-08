@@ -15,8 +15,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
     {doc: 'wiki/guides/getting-started', label: 'Wiki'},
-    {href: 'https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211  target="_blank"', label: 'Organization'},
-    {href: repoUrl, label: 'GitHub'},
+    {blog: true, label: 'Blog'},
   ],
   editUrl: 'https://github.com/1hive/website',
   /* path to images for header/footer */

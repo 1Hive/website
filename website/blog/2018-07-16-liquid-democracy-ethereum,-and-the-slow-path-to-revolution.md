@@ -4,6 +4,8 @@ author: Luke Duncan
 authorURL: https://github.com/lkngtn
 ---
 
+> ⚠️ This is a repost of the [Liquid Democracy, Ethereum, and the slow path to revolution](https://medium.com/hive-commons/liquid-democracy-ethereum-and-the-slow-path-to-revolution-9c1d5916e706) post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, and goals of 1Hive.
+
 Liquid Democracy is a more direct form of democracy which would not be feasible without an infrastructure that enables rapid, secure, transparent, and trusted continuous voting. Ethereum’s smart contracts, despite some currently unresolved scaling issues, provide a promising foundation for building that infrastructure. This post can be broken up into 3 functional areas that essentially explain what Liquid Democracy is, how Hive Commons is approaching implementing it on Ethereum, and how we anticipate using it to bring about social change.
 
 ## A Quick Primer on Liquid Democracy
@@ -105,6 +107,3 @@ This process is fairly straightforward to understand when the deposit or loan is
 Hive Commons will use Liquid Democracy to enable a community of activists to pool their resources into a commons, and collectively govern access to the commons to ensuring that the usage of the resources has a positive impact on the community, either by the user providing a general public service or directly contributing back to the commons. The result won’t always be quantifiable, but the wealth and influence of the community will exhibit the same growth patterns as compounding interest.
 
 Eventually the community will be able to leverage this influence to bring about significant social and political changes, perhaps even lobbying for the adoption of Liquid Democracy by traditional governments. That won’t happen over night, compounding takes time, and there are many other technical and social hurdles before we even start that journey, but, it’s clear that there is potential for the technology to have dramatic economic consequences and a transformative impact on the world.
-
-
-
