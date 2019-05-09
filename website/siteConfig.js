@@ -42,7 +42,8 @@ const siteConfig = {
     {doc: 'wiki/guides/getting-started', label: 'Wiki'},
     {blog: true, label: 'Blog'},
   ],
-  editUrl: 'https://github.com/1hive/website',
+
+  editUrl: 'https://github.com/1hive/website/docs/',
 
   /* path to images for header/footer */
   headerIcon: 'img/bee.png',
