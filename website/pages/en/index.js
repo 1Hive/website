@@ -1,208 +1,99 @@
 /**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
+ * Copyright 2018-present Facebook.
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
+ * @format
  */
 
 const React = require('react');
 
-const CompLibrary = require('../../core/CompLibrary.js');
-
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
-
-class HomeSplash extends React.Component {
-  render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-
-    const SplashContainer = props => (
-      <div className="homeContainer">
-        <div className="homeSplashFade">
-          <div className="wrapper homeWrapper">{props.children}</div>
-        </div>
-      </div>
-    );
-
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
-    const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
-      </h2>
-    );
-
-    const PromoSection = props => (
-      <div className="section promoSection">
-        <div className="promoRow">
-          <div className="pluginRowBlock">{props.children}</div>
-        </div>
-      </div>
-    );
-
-    const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
-          {props.children}
-        </a>
-      </div>
-    );
-
-    return (
-      <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
-    );
-  }
-}
-
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
-
-    const Block = props => (
-      <Container
-        padding={['bottom', 'top']}
-        id={props.id}
-        background={props.background}>
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
-    );
-
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
-        ]}
-      </Block>
-    );
-
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
-    );
-
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
+    return (
+      <div>
+        <div className="splash">
+          <div className="content">
+            <h1>Cultivating Open Source Communities</h1>
+            <h2>
+              1Hive is a decentralized autonomous organization working to grow the open source commons and improve open source sustainability.
+            </h2>
+            <div className="row">
+              <a
+                className="landing-btn primary"
+                href="https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0xc2555abaed3797b52248e814172d2bea6728e542">
+                Open 1Hive DAO
+              </a>
+              <a className="landing-btn" href="/docs/contribute/welcome">
+                Learn more
+              </a>
+            </div>
+            <div className="slideshow">
+              <img src="img/slideshow/1_projects.png" className="splashScreen" />
+              <img src="img/slideshow/2_projects.png" className="splashScreen" />
+              <img src="img/slideshow/3_projects.png" className="splashScreen" />
+              <img src="img/slideshow/4_members.png" className="splashScreen" />
+            </div>
+            <div className="shadow" />
+          </div>
+        </div>
+        <div className="content row">
+          <div className="col center">
+            <img
+              src="/img/051-sprout-1.png" width="250"
+            />
+          </div>
+          <div className="col">
+            <h4>Tools</h4>
+            <h3>Accountable Crowdfunding</h3>
+            <p>
+              We are contributing to the research and development of <strong>Apiary</strong>, a crowdfunding platform for decentralized autonomous organizations. Open Source projects can use Apiary to grant patrons exclusive rights and privelleges within their community.
+            </p>
+            <a className="learnmore" href="/docs/projects/apiary">
+              Learn more
             </a>
           </div>
         </div>
-      );
-    };
-
-    return (
-      <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+        <div className="content row">
+          <div className="col">
+            <h4>Licensing</h4>
+            <h3>Hive Commons License</h3>
+            <p>
+              We believe that finding sustainable funding sources for open source projects is critical to growing the open source commons. To that end we are advocating for a novel open source license which combines the best aspects of <strong>copyleft</strong> and <strong>permissive</strong> style open source licensing.
+            </p>
+            <a className="learnmore" href="/docs/projects/commons-license">
+              Learn more
+            </a>
+          </div>
+          <div className="col center">
+            <img
+              src="/img/051-flower.png" width="250"
+            />
+          </div>
+        </div>
+        <div className="content row">
+          <div className="col center">
+            <img
+              src="/img/051-gloves.png" width="250"
+            />
+          </div>
+          <div className="col">
+            <h4>Community Driven</h4>
+            <h3>Contributing to 1Hive</h3>
+            <p>
+              We are an open and transparent organization. This enables you to see and understand how we
+              operate, and of course join the community and help us improve. Many of our projects, both technical and non-technical, have <strong>open bounties</strong>.
+            </p>
+            <a
+              className="learnmore"
+              href="/docs/contribute/welcome">
+              Learn more
+            </a>
+          </div>
+        </div>
+        <div className="wrapper landing-cta">
+          <a href="/docs/projects/projects-welcome" className="landing-btn primary">
+            More projects
+          </a>
         </div>
       </div>
     );
