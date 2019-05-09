@@ -91,7 +91,7 @@ class Index extends React.Component {
           </div>
         </div>
         <div className="wrapper landing-cta">
-          <a href="/docs/projects/welcome" className="landing-btn primary">
+          <a href="/docs/projects/projects-welcome" className="landing-btn primary">
             More projects
           </a>
         </div>
