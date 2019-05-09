@@ -15,13 +15,13 @@ class Index extends React.Component {
           <div className="content">
             <h1>Cultivating Open Source Communities</h1>
             <h2>
-              1Hive is a decentralized autonomous organization working to grow the open source commons by contributing to research, development, and documentation related to open source sustainability.
+              1Hive is a decentralized autonomous organization working to grow the open source commons and improve open source sustainability.
             </h2>
             <div className="row">
               <a
                 className="landing-btn primary"
                 href="https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0xc2555abaed3797b52248e814172d2bea6728e542">
-                Open Organization
+                Open 1Hive DAO
               </a>
               <a className="landing-btn" href="/docs/contribute/welcome">
                 Learn more
@@ -56,7 +56,7 @@ class Index extends React.Component {
         <div className="content row">
           <div className="col">
             <h4>Licensing</h4>
-            <h3>Harberger Commons License</h3>
+            <h3>Hive Commons License</h3>
             <p>
               We believe that finding sustainable funding sources for open source projects is critical to growing the open source commons. To that end we are advocating for a novel open source license which combines the best aspects of <strong>copyleft</strong> and <strong>permissive</strong> style open source licensing.
             </p>
@@ -91,7 +91,7 @@ class Index extends React.Component {
           </div>
         </div>
         <div className="wrapper landing-cta">
-          <a href="/docs/projects/add" className="landing-btn primary">
+          <a href="/docs/projects/welcome" className="landing-btn primary">
             More projects
           </a>
         </div>

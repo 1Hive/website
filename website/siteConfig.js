@@ -14,6 +14,7 @@ const siteConfig = {
   projectName: '1Hive',
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
+    {doc: 'projects/welcome', label: 'Projects'},
     {doc: 'wiki/guides/getting-started', label: 'Wiki'},
     {blog: true, label: 'Blog'},
   ],

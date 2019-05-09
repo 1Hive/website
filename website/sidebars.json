@@ -8,8 +8,12 @@
       "contribute/allocations-payroll",
       "contribute/rewards-redemptions",
       "contribute/github"
-    ],
+    ]
+  },
+  "projects":{
     "Projects": [
+      "projects/welcome",
+      "projects/redemptions",
       "projects/apiary",
       "projects/commons-license"
     ]
