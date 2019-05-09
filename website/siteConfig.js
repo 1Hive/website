@@ -9,9 +9,31 @@ const repoUrl = 'https://github.com/1hive/website';
 const siteConfig = {
   title: '1Hive' /* title for your website */,
   tagline: 'Helping open source communities thrive',
-  url: 'http://1hive.org' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+
+	/////////////////////////////////////////////////////////////////////////
+	
+	// EXAMPLE
+  // For github.io type URLs, you would set the url and baseUrl like:
+  //   url: 'https://facebook.github.io',
+  //   baseUrl: '/test-site/',
+
+	// UNCOMMENT FOR LOCAL DEVELOPMENT
+	//url: 'https://your-docusaurus-test-site.com', // Your website URL
+	//baseUrl: '/', // Base URL for your project */
+	
+	// UNCOMMENT FOR PUBLISHING TO GH-PAGES
+	url: 'https://1hive.github.io', // Your website URL
+	baseUrl: '/website/', // Base URL for your project */
+	
+	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE ???
+	//url: 'http://1hive.org' /* your website url */,
+	//baseUrl: '/' /* base url for your project */,
+	
+	/////////////////////////////////////////////////////////////////////////
+
   projectName: '1Hive',
+  organizationName: '1Hive',
+
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
     {doc: 'projects/projects-welcome', label: 'Projects'},
@@ -19,10 +41,12 @@ const siteConfig = {
     {blog: true, label: 'Blog'},
   ],
   editUrl: 'https://github.com/1hive/website',
+
   /* path to images for header/footer */
   headerIcon: 'img/bee.png',
   footerIcon: 'img/bee.png',
   favicon: 'img/bee.png',
+
   /* colors for website */
   colors: {
     primaryColor: '#6da9e2',
