@@ -27,6 +27,10 @@ Docusaurus has great docs. Rather than recreating them, I'll just link to the mo
 
 ### TL;DR: to hack
 
+Pull the repo to your local machine. Go into the `website` directory
+- `yarn` (to init stuff)
+- `yarn start` (to build and serve locally)
+
 ~ Everything that is a String can be edited via Markdown. The hot-reload server will show these changes if you refresh the local build in the browser.
 
 If you change anything using Javascript, you're probably going to need to disengage `yarn` then run `yarn start` again to see changes
@@ -36,15 +40,17 @@ Good luck! 🍀
 
 ### TL;DR: to publish
 
-Uncomment some stuff in `siteConfig.js`
+(assuming you have push access to the website repo, otherwise keep the local configuration in `siteConfig.js` and just submit a PR)
+
+Uncomment stuff in `siteConfig.js` to configure for publishing to website (not gh-pages)
 
 Then navigate to the `website` directory
 
-Then run the script below:
+Then run the script below 
 
 `GIT_USER=your-username CURRENT_BRANCH=master yarn run publish-gh-pages`
 
-When you're done publishing, remember to go back to `siteConfig.js` and uncomment the publish params and go back to the local dev build!
+When you're done publishing, go to the github repo (https://github.com/1Hive/website/), click on settings, and make sure that under GitHub Pages 1hive.org is set as the custom domain and it says: "Your site is published at https://1hive.org/"
 
 <br>
 
