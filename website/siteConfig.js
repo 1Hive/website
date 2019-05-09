@@ -43,8 +43,7 @@ const siteConfig = {
     {blog: true, label: 'Blog'},
   ],
 
-	// For editing the wiki
-  editUrl: 'https://github.com/1hive/website/docs/',
+  editUrl: 'https://github.com/1Hive/website/blob/master/docs',
 
   /* path to images for header/footer */
   headerIcon: 'img/bee.png',
