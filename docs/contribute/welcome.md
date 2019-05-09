@@ -1,7 +1,7 @@
 ---
 id: welcome
 sidebar_label: Welcome
-title: Hi 👋
+title: Hi! Let's change the world, together. 
 ---
 
 1Hive is a [decentralized autonomous organization](docs/wiki/guides/daos) working to grow the open source commons by contributing to research, development, and documentation related to open source sustainability.  
