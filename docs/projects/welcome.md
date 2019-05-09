@@ -1,6 +1,6 @@
 ---
-id: redemptions
-sidebar_label: Redemptions
-title: Redemptions App
+id: projects-welcome
+sidebar_label: Welcome
+title: Welcome
 ---
 This needs to be written.

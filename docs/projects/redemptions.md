@@ -1,7 +1,7 @@
 ---
 id: redemptions
-sidebar_label: Redemptions App
-title: Redemptions App for Aragon
+sidebar_label: Redemptions
+title: Redemptions
 ---
 
 This needs to be written.

@@ -12,7 +12,7 @@
   },
   "projects":{
     "Projects": [
-      "projects/welcome",
+      "projects/projects-welcome",
       "projects/redemptions",
       "projects/apiary",
       "projects/commons-license"
