@@ -4,7 +4,7 @@
  * LICENSE file in the root directory of this source tree.
  * @format
  */
-const repoUrl = 'https://github.com/facebook/flipper';
+const repoUrl = 'https://github.com/1hive/website';
 
 const siteConfig = {
   title: '1Hive' /* title for your website */,
