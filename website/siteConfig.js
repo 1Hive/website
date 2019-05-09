@@ -10,6 +10,7 @@ const siteConfig = {
   title: '1Hive' /* title for your website */,
   tagline: 'Helping open source communities thrive',
 
+	// PUBLISHING PARAMS
 	/////////////////////////////////////////////////////////////////////////
 	
 	// EXAMPLE
@@ -19,15 +20,15 @@ const siteConfig = {
 
 	// UNCOMMENT FOR LOCAL DEVELOPMENT
 	//url: 'https://your-docusaurus-test-site.com', // Your website URL
-	//baseUrl: '/', // Base URL for your project */
+	//baseUrl: '/', // Base URL for your project 
 	
-	// UNCOMMENT FOR PUBLISHING TO GH-PAGES
+	// UNCOMMENT FOR PUBLISHING TO GH-PAGES 
 	//url: 'https://1hive.github.io', // Your website URL
-	//baseUrl: '/website/', // Base URL for your project */
+	//baseUrl: '/website/', // Base URL for your project 
 	
-	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE ???
-	url: 'http://1hive.org' /* your website url */,
-	baseUrl: '/' /* base url for your project */,
+	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE 
+	url: 'http://1hive.org', // your website url 
+	baseUrl: '/', // base url for your project 
 	
 	/////////////////////////////////////////////////////////////////////////
 
