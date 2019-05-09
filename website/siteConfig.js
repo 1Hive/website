@@ -11,7 +11,7 @@ const siteConfig = {
   tagline: 'Helping open source communities thrive',
   url: 'http://1hive.org' /* your website url */,
   baseUrl: '/' /* base url for your project */,
-  organizationName: '1Hive',
+  organizationName: '1hive',
   projectName: '1Hive',
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
