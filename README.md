@@ -1,8 +1,5 @@
----
-id: docs 
-sidebar_label: Docs 🦕  
-title: Documenting with Docusaurus 🦕
----
+# Contribution Guide
+
 
 ## This website is built with [Docusaurus](https://docusaurus.io)! 🦕
 
