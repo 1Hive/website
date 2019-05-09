@@ -1,0 +1,45 @@
+{
+  "contribute": {
+    "Contribute": [
+      "contribute/welcome",
+      "contribute/keybase",
+      "contribute/membership",
+      "contribute/projects-tasks",
+      "contribute/allocations-payroll",
+      "contribute/rewards-redemptions",
+      "contribute/github"
+    ]
+  },
+  "projects":{
+    "Projects": [
+      "projects/projects-welcome",
+      "projects/redemptions",
+      "projects/apiary",
+      "projects/commons-license"
+    ]
+  },
+  "wiki": {
+    "Guides": [
+      "wiki/guides/getting-started",
+      "wiki/guides/democracy",
+      "wiki/guides/multi-sig"
+    ],
+    "Concepts": [
+      "wiki/concepts/bonding-curve",
+      "wiki/concepts/cryptoeconomics",
+      "wiki/concepts/harberger-taxes",
+      "wiki/concepts/proxy-voting",
+      "wiki/concepts/tcr"
+    ],
+    "Apps": [
+      "wiki/apps/redemption",
+      "wiki/apps/token-manager",
+      "wiki/apps/vault",
+      "wiki/apps/voting",
+      "wiki/apps/finance",
+      "wiki/apps/projects",
+      "wiki/apps/allocation",
+      "wiki/apps/dot-voting"
+    ]
+  }
+}

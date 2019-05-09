@@ -1,0 +1,27 @@
+{
+  "name": "1hive-website",
+  "version": "1.0.0",
+  "description": "A docusaurus website for 1hive",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Hive/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Hive/website/issues"
+  },
+  "homepage": "https://github.com/1Hive/website#readme",
+  "devDependencies": {
+    "docusaurus": "^1.9.0",
+    "glob": "^7.1.4",
+    "react-docgen": "^4.1.1"
+  }
+}

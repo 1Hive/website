@@ -1,5 +1,6 @@
 # Contribution Guide
 
+
 ## This website is built with [Docusaurus](https://docusaurus.io)! 🦕
 
 This means that unless you want to change the architecture of the site (adding/removing sections, reorganizing, etc) you should be able to just create and edit [Markdown](https://guides.github.com/features/mastering-markdown/) docs. 
