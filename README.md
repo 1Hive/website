@@ -24,6 +24,7 @@ Docusaurus has great docs. Rather than recreating them, I'll just link to the mo
 
 ## Hacking On Docusaurus 💻
 
+<br>
 
 ### TL;DR: to hack
 
@@ -37,6 +38,7 @@ If you change anything using Javascript, you're probably going to need to diseng
 
 Good luck! 🍀
 
+<br>
 
 ### TL;DR: to publish
 
@@ -55,6 +57,8 @@ When you're done publishing, go to the github repo (https://github.com/1Hive/web
 <br>
 
 Here's the long form of what that all looks like...
+
+<br>
 
 ### Prerequisites
 
@@ -101,11 +105,7 @@ If everything is working, you can expect changes to the UI or Markdown to hot re
 ### Publishing
 
 To publish you'll need to navigate to the `website` directory (`~mvp/website/`) and change the parameters in `siteConfig.js` to comment out local development and enable publishing.
-- https://github.com/1Hive/mvp/blob/master/website/siteConfig.js#L27
-
-Then you'll need to make sure that you're signed into GitHub on your local device. I do this with the following command so that I don't have to login for every push
-
-`git config --global credential.helper cache`
+- https://github.com/1Hive/website/blob/master/website/siteConfig.js#L13
 
 - note: if you have 2FA enabled on your GitHub profile (and you would be wise to do so), you'll need to provide your GitHub API access token rather than your account password. You can learn about how to do that [here](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
 - test that it's working by creating a small change to the README.md, going to the root directory of the project (`~/mvp/`) and pushing it to the repo
@@ -118,25 +118,13 @@ Once you've got that figured out... navigate to the `website` directory (`~/mvp/
 
 `GIT_USER=your-username CURRENT_BRANCH=master yarn run publish-gh-pages`
 
-After about a minute it should populate to the actual website URL. The latest website URL can be found on the README.md of this repo.
+After about a minute (sometimes 5min) it should populate to the actual website URL: 1hive.org
 
 ### ❗ You're not done!
 
-Now you need to reset the parameters in `siteConfig.js` so that the next person who pulls the repo to work on it doesn't get get hit with a snafu first thing.
+Once you've published, go to the github repo (https://github.com/1Hive/website/), click on settings, and make sure that under GitHub Pages 1hive.org is set as the custom domain and it says: "Your site is published at https://1hive.org/"
 
-Make sure that you're still in the `website` directory (`~mvp/website/`) and change the parameters in `siteConfig.js` to comment out publishing and enable local development.
-- https://github.com/1Hive/mvp/blob/master/website/siteConfig.js#L27
-
-Then run it locally to make sure that it's working
-
-    cd ~/mvp/website
-    yarn start
-
-If you check localhost:3000 and it's working and you haven't broken anything, then push it to the repo
-
-    git add .
-    git commit -m "insightful message goes here"
-    git push
+Also, before submitting any more PRs or pushes make sure that `siteConfig.js` is configured for local development so that it's ready for anyone to pulls the repo and work on it locally :) 
 
 ### Hope that helps! :)
 
