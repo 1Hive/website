@@ -1,7 +1,7 @@
 ---
 id: allocation
 sidebar_label: Allocation 
-title: Allocation
+title: Allocation 
 ---
 
 Rewarding and recognizing contributions.
@@ -25,8 +25,29 @@ Click on the Allocations app in the app drawer. Create a new allocation. Add a d
 
 <br>
 
-## How do I add the Allocation app to my DAO?
+## Where can I learn more?
 
-Autark has an installation/onboarding guide right [here](https://github.com/AutarkLabs/planning-suite/blob/master/docs/GETTING_STARTED.md#install-the-allocations-app)!
+The [Aurark website](https://www.autark.xyz/) is a great start.
+- [Allocations app](https://www.autark.xyz/allocations)
+
+[This blog post](https://medium.com/@stellarmagnet/that-planning-suite-live-on-rinkeby-c2332e2e5e27) also explains how to use the app in more detail. 
+
+<br>
+
+## Show me the code!
+
+[Allocations repo on GitHub](https://github.com/AutarkLabs/planning-suite/tree/dev/apps/allocations)
+
+[Here's how you can add the Projects app to a pre-existing DAO](https://github.com/AutarkLabs/planning-suite/blob/master/docs/GETTING_STARTED.md#install-the-allocations-app)
+
+[Here's where you can roll your own TPS enables DAO on Rinkeby to explore the Allocations app](https://rinkeby.autark.xyz/)
+
+[Here's a live working DAO that's set up with TPS apps already enabled](https://rinkeby.aragon.org/#/dune.aragonid.eth)
+
+<br>
+
+## Still have questions?
+
+[Ask the Autark team on Keybase!](https://keybase.io/team/autark.community)
 
 <br>
