@@ -24,12 +24,12 @@ const siteConfig = {
 	
 	// (no longer needed, but keep just in case)
 	// UNCOMMENT FOR PUBLISHING TO GH-PAGES 
-	//url: 'https://1hive.github.io', // Your website URL
-	//baseUrl: '/website/', // Base URL for your project 
+	url: 'https://1hive.github.io', // Your website URL
+	baseUrl: '/website/', // Base URL for your project 
 
 	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE 
-	url: 'http://1hive.org', // your website url 
-	baseUrl: '/', // base url for your project 
+	//url: 'http://1hive.org', // your website url 
+	//baseUrl: '/', // base url for your project 
 	
 	/////////////////////////////////////////////////////////////////////////
 
