@@ -10,9 +10,9 @@ At 1Hive we believe in sustainable development of open source commons. To make t
 
 ## Our Projects 
 
-### [1Hive](1hive.org) - A sustainable open source community that creates education materials, tools, and applications that are redefining the way we think about and build open source software.
+### [Redemptions](redemptions.md) - An Aragon app that enables redeeming organizations tokens for organization assets.
 
-- Status: public beta 🐝
+- Status: 🛠️ In Development
 
 <br>
 
@@ -28,9 +28,9 @@ At 1Hive we believe in sustainable development of open source commons. To make t
 
 <br>
 
-### [Redemptions](redemptions.md) - An Aragon app that enables redeeming organizations tokens for organization assets.
+### [1Hive](1hive.org) - A sustainable open source community that creates education materials, tools, and applications that are redefining the way we think about and build open source software.
 
-- Status: 🛠️ In Development
+- Status: public beta 🐝
 
 <br>
 
