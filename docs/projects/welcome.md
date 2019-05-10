@@ -28,7 +28,7 @@ At 1Hive we believe in sustainable development of open source commons. To make t
 
 <br>
 
-### [Redemption](redemptions.md) - An Aragon app that enables redeeming organizations tokens for organization assets.
+### [Redemptions](redemptions.md) - An Aragon app that enables redeeming organizations tokens for organization assets.
 
 - Status: 🛠️ In Development
 
