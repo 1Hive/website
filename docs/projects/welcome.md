@@ -10,7 +10,13 @@ At 1Hive we believe in sustainable development of open source commons. To make t
 
 ## Our Projects 
 
-### [Apiary](apiary.md) - Apiary is a mechanism for accountable crowdfunding using bonding curves and a continuous tap. 
+### [1Hive](1hive.org) - A sustainable open source community that creates education materials, tools, and applications that are redefining the way we think about and build open source software.
+
+- Status: public beta 🐝
+
+<br>
+
+### [Apiary](apiary.md) - A mechanism for accountable crowdfunding using bonding curves and a continuous tap. 
 
 - Status: 🛠️ In Development
 
@@ -22,7 +28,7 @@ At 1Hive we believe in sustainable development of open source commons. To make t
 
 <br>
 
-[Redemption](redemptions.md) - An Aragon app that enables redeeming organizations tokens for organization assets.
+### [Redemption](redemptions.md) - An Aragon app that enables redeeming organizations tokens for organization assets.
 
 - Status: 🛠️ In Development
 
