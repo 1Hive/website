@@ -4,6 +4,8 @@ sidebar_label: Welcome
 title: Welcome 👋
 ---
 
+TESTING A CHANGE
+
 At 1Hive we believe in sustainable development of open source commons. To make that possible we create applications that help communities organize and sustainably fund their projects. All the info on our past, current, and future projects can be found here. We hope they are useful!
 
 <br>
