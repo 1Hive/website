@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://1hive.org/blog</id>
+    <id>https://1hive.github.io/website/blog</id>
     <title>1Hive Blog</title>
     <updated>2018-08-14T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
-    <link rel="alternate" href="http://1hive.org/blog"/>
+    <link rel="alternate" href="https://1hive.github.io/website/blog"/>
     <subtitle>The best place to stay up-to-date with the latest 1Hive news and events.</subtitle>
-    <logo>http://1hive.org/img/bee.png</logo>
+    <logo>https://1hive.github.io/website/img/bee.png</logo>
     <rights>Copyright © 2019 1Hive</rights>
     <entry>
         <title type="html"><![CDATA[Harberger Taxation and Open Source]]></title>
-        <id>http://1hive.org/blog/2018/08/14/harberger-taxation-and-open-source.html</id>
-        <link href="http://1hive.org/blog/2018/08/14/harberger-taxation-and-open-source.html">
+        <id>https://1hive.github.io/website/blog/2018/08/14/harberger-taxation-and-open-source.html</id>
+        <link href="https://1hive.github.io/website/blog/2018/08/14/harberger-taxation-and-open-source.html">
         </link>
         <updated>2018-08-14T06:00:00Z</updated>
         <summary type="html"><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/harberger-taxation-and-open-source-58dcdbab140d">Harberger Taxation and Open Source</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, an...</p></blockquote>]]></summary>
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Liquid Democracy, Ethereum, and the slow path to revolution]]></title>
-        <id>http://1hive.org/blog/2018/07/16/liquid-democracy-ethereum,-and-the-slow-path-to-revolution.html</id>
-        <link href="http://1hive.org/blog/2018/07/16/liquid-democracy-ethereum,-and-the-slow-path-to-revolution.html">
+        <id>https://1hive.github.io/website/blog/2018/07/16/liquid-democracy-ethereum,-and-the-slow-path-to-revolution.html</id>
+        <link href="https://1hive.github.io/website/blog/2018/07/16/liquid-democracy-ethereum,-and-the-slow-path-to-revolution.html">
         </link>
         <updated>2018-07-16T06:00:00Z</updated>
         <summary type="html"><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/liquid-democracy-ethereum-and-the-slow-path-to-revolution-9c1d5916e706">Liquid Democracy, Ethereum, and the slow path to revolution</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the ...</p></blockquote>]]></summary>
@@ -34,8 +34,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Hive Commons]]></title>
-        <id>http://1hive.org/blog/2017/07/04/introducing-hive-commons.html</id>
-        <link href="http://1hive.org/blog/2017/07/04/introducing-hive-commons.html">
+        <id>https://1hive.github.io/website/blog/2017/07/04/introducing-hive-commons.html</id>
+        <link href="https://1hive.github.io/website/blog/2017/07/04/introducing-hive-commons.html">
         </link>
         <updated>2017-07-04T06:00:00Z</updated>
         <summary type="html"><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/introducing-hive-commons-95dad77814bb">Introducing Hive Commons</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, and goals of ...</p></blockquote>]]></summary>
