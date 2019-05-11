@@ -16,13 +16,15 @@ The following are the main channels we use to coordinate.
 |----------|-------------|
 | #announcements |  *Read only* intended only for announcements 📣 |
 | #commons | Discussion related to building a sustainable open source commons 🌼 |
+| #communication | Discussion related to connecting with people who believe in the 1Hive mission 🚀 |
 | #crytoeconomics | Positive-sum incentive aligning token models 🍯 |
+| #dao | Anything related to the 1Hive DAO settings or structure 🖧 |
 | #dev | Discussion related to software development 💻 |
 | #general | A catchall for discussion that doesn't fit elsewhere 🤙 |
 | #intros | A great place to say hi for the first time 👋  |
 | #legal | Discussion related to legal hacking and software licenses ⚖|
-| #website| Discussion related to our website, blog, and wiki 🌎 |
 | #nominations| Nominate members for weekly community allocations 🙏 |
+| #website| Discussion related to our website, blog, and wiki 🌎 |
 
 ### Chat Etiquette
 
