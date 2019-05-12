@@ -13,7 +13,7 @@ class Index extends React.Component {
       <div>
         <div className="splash">
           <div className="content">
-            <h1>Cultivating Open Source Communities</h1>
+            <h1>Helping Open Source Communities Thrive</h1>
             <h2>
               1Hive is a decentralized autonomous organization working to grow the open source commons and improve open source sustainability.
             </h2>
