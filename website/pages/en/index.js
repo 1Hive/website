@@ -7,10 +7,24 @@
 
 const React = require('react');
 
+const CompLibrary = require('../../core/CompLibrary.js');
+
+const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
+const Container = CompLibrary.Container;
+const GridBlock = CompLibrary.GridBlock;
+
+
+// The Main Component
 class Index extends React.Component {
   render() {
-    return (
-      <div>
+
+		// Useful Stuff?
+		const {config: siteConfig, language = ''} = this.props;
+		const {baseUrl} = siteConfig;
+
+		// Splash Component
+		function Splash() {
+			return (
         <div className="splash">
           <div className="content">
             <h1>Cultivating Open Source Communities</h1>
@@ -36,6 +50,13 @@ class Index extends React.Component {
             <div className="shadow" />
           </div>
         </div>
+			)	
+		}
+
+
+		// First Content Component
+		function Content1(){
+			return (
         <div className="content row">
           <div className="col center">
             <img
@@ -53,6 +74,12 @@ class Index extends React.Component {
             </a>
           </div>
         </div>
+			)
+		}
+
+		// Second Content Component
+		function Content2() {
+			return (
         <div className="content row">
           <div className="col">
             <h4>Licensing</h4>
@@ -70,6 +97,12 @@ class Index extends React.Component {
             />
           </div>
         </div>
+			)
+		}
+
+		// Third Content Component
+		function Content3() {
+			return (
         <div className="content row">
           <div className="col center">
             <img
@@ -90,11 +123,57 @@ class Index extends React.Component {
             </a>
           </div>
         </div>
+			)
+		}
+
+		// Projects Component
+		function Projects() {
+			return (
         <div className="wrapper landing-cta">
           <a href="/docs/projects/projects-welcome" className="landing-btn primary">
             More projects
           </a>
         </div>
+			)
+		}
+
+		// TODO: get it working and rename it to Members
+		// User Showcase Component
+		function Showcase() {
+			if ((siteConfig.users || []).length === 0) {
+				return null;
+			}
+			const showcase = siteConfig.users
+				.filter(user => user.pinned)
+				.map(user => (
+					<a href={user.infoLink} key={user.infoLink}>
+						<img src={user.image} alt={user.caption} title={user.caption} />
+					</a>
+				));
+			const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
+			return (
+				<div className="productShowcaseSection paddingBottom">
+					<h2>What else have we built?</h2>
+					<p>Checkout the honeycomb!</p>
+					<div className="logos">{showcase}</div>
+					<div className="more-users">
+						<a className="button" href={pageUrl('users.html')}>
+							More {siteConfig.title} BEEs
+						</a>
+					</div>
+				</div>
+			);
+		};
+
+		// Return The Components
+    return (
+      <div>
+				<Splash />
+				<Content1 />
+				<Content2 />
+				<Content3 />
+				<Projects />
+				<Showcase />
       </div>
     );
   }
