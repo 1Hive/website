@@ -7,20 +7,10 @@
 
 const React = require('react');
 
-const CompLibrary = require('../../core/CompLibrary.js');
-
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
-
 
 // The Main Component
 class Index extends React.Component {
   render() {
-
-		// Useful Stuff?
-		const {config: siteConfig, language = ''} = this.props;
-		const {baseUrl} = siteConfig;
 
 		// Splash Component
 		function Splash() {
@@ -137,34 +127,6 @@ class Index extends React.Component {
 			)
 		}
 
-		// TODO: get it working and rename it to Members
-		// User Showcase Component
-		function Showcase() {
-			if ((siteConfig.users || []).length === 0) {
-				return null;
-			}
-			const showcase = siteConfig.users
-				.filter(user => user.pinned)
-				.map(user => (
-					<a href={user.infoLink} key={user.infoLink}>
-						<img src={user.image} alt={user.caption} title={user.caption} />
-					</a>
-				));
-			const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-			return (
-				<div className="productShowcaseSection paddingBottom">
-					<h2>What else have we built?</h2>
-					<p>Checkout the honeycomb!</p>
-					<div className="logos">{showcase}</div>
-					<div className="more-users">
-						<a className="button" href={pageUrl('users.html')}>
-							More {siteConfig.title} BEEs
-						</a>
-					</div>
-				</div>
-			);
-		};
-
 		// Return The Components
     return (
       <div>
@@ -173,7 +135,6 @@ class Index extends React.Component {
 				<Content2 />
 				<Content3 />
 				<Projects />
-				<Showcase />
       </div>
     );
   }
