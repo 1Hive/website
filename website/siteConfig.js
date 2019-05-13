@@ -4,6 +4,11 @@
  * LICENSE file in the root directory of this source tree.
  * @format
  */
+
+// See https://docusaurus.io/docs/site-config for all the possible
+// site configuration options.
+
+
 const repoUrl = 'https://github.com/1hive/website';
 
 const siteConfig = {
@@ -18,6 +23,7 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+	// (no longer needed, but keep just in case)
 	// UNCOMMENT FOR LOCAL DEVELOPMENT
 	//url: 'https://your-docusaurus-test-site.com', // Your website URL
 	//baseUrl: '/', // Base URL for your project 

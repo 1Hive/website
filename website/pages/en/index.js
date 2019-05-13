@@ -7,10 +7,14 @@
 
 const React = require('react');
 
+
+// The Main Component
 class Index extends React.Component {
   render() {
-    return (
-      <div>
+
+		// Splash Component
+		function Splash() {
+			return (
         <div className="splash">
           <div className="content">
             <h1>Helping Open Source Communities Thrive</h1>
@@ -36,6 +40,13 @@ class Index extends React.Component {
             <div className="shadow" />
           </div>
         </div>
+			)	
+		}
+
+
+		// First Content Component
+		function Content1(){
+			return (
         <div className="content row">
           <div className="col center">
             <img
@@ -53,6 +64,12 @@ class Index extends React.Component {
             </a>
           </div>
         </div>
+			)
+		}
+
+		// Second Content Component
+		function Content2() {
+			return (
         <div className="content row">
           <div className="col">
             <h4>Licensing</h4>
@@ -70,6 +87,12 @@ class Index extends React.Component {
             />
           </div>
         </div>
+			)
+		}
+
+		// Third Content Component
+		function Content3() {
+			return (
         <div className="content row">
           <div className="col center">
             <img
@@ -90,11 +113,28 @@ class Index extends React.Component {
             </a>
           </div>
         </div>
+			)
+		}
+
+		// Projects Component
+		function Projects() {
+			return (
         <div className="wrapper landing-cta">
           <a href="/docs/projects/projects-welcome" className="landing-btn primary">
             More projects
           </a>
         </div>
+			)
+		}
+
+		// Return The Components
+    return (
+      <div>
+				<Splash />
+				<Content1 />
+				<Content2 />
+				<Content3 />
+				<Projects />
       </div>
     );
   }
