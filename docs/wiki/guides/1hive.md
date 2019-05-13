@@ -8,9 +8,27 @@ How to do stuff in the 1Hive DAO if you're a BEE
 
 <br>
 
-## Adding HONEY to Metamask 🍯🦊
+## Adding tokens to Metamask 🐝🦊🍯
 
-TBD. I don't have any HONEY yet so I can't do this.
+Adding HONEY tokens to Metamask requires a few clicks. 
+- open Metamask
+- click on the left side menu button (it has 3 horizontal lines)
+- scroll to the bottom of the window and click "Add Token"
+- choose the Custom Token option
+- enter the HONEY token contract address: 0x4a7683282053FF1e2381Cc1663fb04FbBCD18350
+- the other sections should autofill
+- click Next
+- click Add Token
+
+You should see your HONEY tokens in Metamask!
+
+You can also follow this same process to add your BEE token, just replace the token contract address with the BEE token.
+
+### BEE Token Contract Address
+- 0xfaE3B25ec796cF099fE1e7ba21e6d99297640829
+
+### HONEY Token Contract Address
+- 0xfaE3B25ec796cF099fE1e7ba21e6d99297640829
 
 <br>
 
