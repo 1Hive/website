@@ -36,7 +36,7 @@ The first provision would create a viral quality to the license similar to exist
 
 Even if the revenue from such taxes are completely ignored, the cost of keeping works proprietary as opposed to releasing them open source would incent users of the license to include their derivative works in the commons rather than keeping the work proprietary. Or at least provide an accurate valuation that allows interested parties to pull the work into the commons if they desire. However, as the commons grows the revenue generated from taxes may become significant, and so its important to consider how such revenue would be allocated.
 
-At this point I’m not sure what the best approach is and would be interested in what others think (hop on the [1Hive Gitter!](https://gitter.im/1Hive)), but the following approaches seem like they would be worth considering:
+At this point I’m not sure what the best approach is and would be interested in what others think (hop on the [1Hive Keybase chat!](https://keybase.io/team/1hive)), but the following approaches seem like they would be worth considering:
 
 ### 1. Self-directed donations towards charitable causes
 
@@ -56,4 +56,4 @@ The third, and perhaps most interesting approach, is to use the funds to create 
 
 Having the funds be controlled by an on-chain entity would simplify the implementation and administration requirements for the foundation significantly, as it would only be necessarily for them to provide identity attestions for unique individuals. Everything else could be administered reliably and autonomously using smart contracts. By leveraging existing infrastructure provided [Ethereum](https://ethereum.org/), [Aragon](https://aragon.org/), and [Uport](https://www.uport.me/) much of the technical implementation would be integrating existing components into a practical application.
 
-Sound Interesting? Let’s chat! [Gitter](https://gitter.im/1Hive) ~ [Github](https://github.com/1Hive) ~ [Twitter](https://twitter.com/1HiveOrg)
+Sound Interesting? Let’s chat! [Keybase](https://keybase.io/team/1hive) ~ [Github](https://github.com/1Hive) 

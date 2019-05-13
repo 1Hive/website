@@ -116,6 +116,32 @@ class Index extends React.Component {
 			)
 		}
 
+		// Fourth Content Component
+		function Content4() {
+			return (
+        <div className="content row">
+          <div className="col center">
+            <img
+              src="/img/051-gloves.png" width="250"
+            />
+          </div>
+          <div className="col">
+            <h4>Get Some Honey</h4>
+            <h3>How to get HONEY</h3>
+            <p>
+              We are an open and transparent organization. This enables you to see and understand how we
+              operate, and of course join the community and help us improve. Many of our projects, both technical and non-technical, have <strong>open bounties</strong>.
+            </p>
+            <a
+              className="learnmore"
+              href="/docs/contribute/welcome">
+              Learn more
+            </a>
+          </div>
+        </div>
+			)
+		}
+
 		// Projects Component
 		function Projects() {
 			return (
