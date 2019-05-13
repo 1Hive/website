@@ -22,8 +22,9 @@
   "wiki": {
     "Guides": [
       "wiki/guides/getting-started",
+			"wiki/guides/1Hive",
       "wiki/guides/democracy",
-      "wiki/guides/multi-sig"
+      "wiki/guides/multisig"
     ],
     "Concepts": [
       "wiki/concepts/bonding-curve",
