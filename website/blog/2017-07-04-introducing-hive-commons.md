@@ -64,6 +64,6 @@ This funding platform would enable community members to provide an incentive for
 
 ## Who can help?
 
-You can. Hive Commons is a grass-roots organization and everyone who believes in the mission can and should participate in the realization of the communities shared goal. Whether that means joining the conversation and spreading the ideas, or getting more active in development and infrastructure. So whatever your skillset is, join the community and get involved. We are on [Github](https://github.com/1Hive), [Medium](https://medium.com/hive-commons), and [Reddit](https://www.reddit.com/r/HiveCommons/).
+You can. Hive Commons is a grass-roots organization and everyone who believes in the mission can and should participate in the realization of the communities shared goal. Whether that means joining the conversation and spreading the ideas, or getting more active in development and infrastructure. So whatever your skillset is, join the community and get involved. We are on [Github](https://github.com/1Hive) and [Keybase](https://keybase.io/team/1hive).
 
 Let’s change the world, together.

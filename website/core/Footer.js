@@ -61,12 +61,6 @@ class Footer extends React.Component {
             <a href={this.docUrl('wiki/guides/getting-started', this.props.language)}>
               Wiki
             </a>
-            <a
-              href="https://twitter.com/1hiveorg"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
           </div>
         </section>
 
