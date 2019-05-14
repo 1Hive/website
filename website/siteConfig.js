@@ -36,6 +36,7 @@ const siteConfig = {
 	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE 
 	url: 'http://1hive.org', // your website url 
 	baseUrl: '/', // base url for your project 
+	cname: '1hive.org', // custome domain file for gh pages
 	
 	/////////////////////////////////////////////////////////////////////////
 
