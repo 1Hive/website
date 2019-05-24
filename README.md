@@ -9,7 +9,7 @@ This means that unless you want to change the architecture of the site (adding/r
 
 ## Examples 👀
 
-If you want an example of what Docusaurus can do, look no further than the official [Docusaurus website](https://docusaurus.io/). Another great example is [hack.aragon](https://hack.aragon.org/). Since Docusaurus is based on [React](https://reactjs.org), you can extend and customize it as little or as much as you'd like. 
+If you want an example of what Docusaurus can do, look no further than the official [Docusaurus website](https://docusaurus.io/). Another great example is [hack.aragon.org](https://hack.aragon.org/). Since Docusaurus is based on [React](https://reactjs.org), you can extend and customize it as little or as much as you'd like. 
 
 <br>
 
