@@ -145,8 +145,16 @@ class Index extends React.Component {
 		// Projects Component
 		function Projects() {
 			return (
-        <div className="wrapper landing-cta">
-          <a href="/docs/projects/projects-welcome" className="landing-btn primary">
+        <div className="landing-cta center">
+					<img
+						src='img/crops.svg'
+						width="250"
+						className='padding'
+					/>
+					<a 
+						href="/docs/projects/projects-welcome" 
+						className="landing-btn primary"
+					>
             More projects
           </a>
         </div>
