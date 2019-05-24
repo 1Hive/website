@@ -14,6 +14,17 @@ Who does what
 
 <br>
 
+## Workers
+
+Anyone can contribute to the 1Hive DAO by working engaging eith the community on Keybase, creating new Issues on GitHub, working on open Issues on GitHub. This does not require anyone's permission. Reviewers can assign tasks to the contributor's GitHub account and pay out HONEY bounties to the worker's Ethereum address upon successful completion. This does not require any permissions within the 1Hive DAO.
+
+The roles and responsibilities of curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-workers).
+
+If a Worker earns (or purchases) HONEY, they will have HONEY voting rights within the [1Hive DAO](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211). This includes the following permissions in the HONEY token Voting app:
+- Create new votes
+
+<br>
+
 ## BEEs
 
 The roles and responsibilites of BEEs can be found [here](https://1hive.org/docs/contribute/membership.html#membership-guidelines). Current BEEs are:
@@ -31,9 +42,9 @@ The roles and responsibilites of BEEs can be found [here](https://1hive.org/docs
 
 ## HONEY Holders
 
-The roles and responsibilities of HONEY holders can be found [here](https://1hive.org/docs/contribute/membership.html#why-honey).
+The roles and responsibilities of HONEY Holders can be found [here](https://1hive.org/docs/contribute/membership.html#why-honey).
 
-Current HONEY holders can be found on the 1Hive DAO in the [token manager](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0xda552be756aeb99df8d7ded3d853e1d57efa2442) app.
+Current HONEY Holders can be found on the 1Hive DAO in the [token manager](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0xda552be756aeb99df8d7ded3d853e1d57efa2442) app.
 
 [1Hive DAO](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211) curators have the following permissions in the HONEY token Voting app:
 - Create new votes
@@ -43,7 +54,7 @@ Current HONEY holders can be found on the 1Hive DAO in the [token manager](https
 
 ## Curators
 
-The roles and responsibilites of curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current curators are:
+The roles and responsibilites of Curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current Curators are:
 - [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
 - [burrrata](https://github.com/burrrata) - @burrrata on Keybase
 
@@ -57,7 +68,7 @@ The roles and responsibilites of curators can be found [here](https://1hive.org/
 
 ## Reviewers
 
-The roles and responsibilites of reviewers can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current reviewers are:
+The roles and responsibilites of Reviewers can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current Reviewers are:
 - [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
 - [burrrata](https://github.com/burrrata) - @burrrata on Keybase
 
@@ -67,16 +78,9 @@ The roles and responsibilites of reviewers can be found [here](https://1hive.org
 
 <br>
 
-## Workers
+## Alocations Admin
 
-Anyone can contribute to the 1Hive DAO by working engaging eith the community on Keybase, creating new Issues on GitHub, working on open Issues on GitHub. This does not require anyone's permission. Reviewers can assign tasks to the contributor's GitHub account and pay out HONEY bounties to the worker's Ethereum address upon successful completion. This does not require any permissions within the 1Hive DAO.
-
-The roles and responsibilities of curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-workers).
-
-If a worker earns (or purchases) HONEY, they will have HONEY voting rights within the [1Hive DAO](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211). This includes the following permissions in the HONEY token Voting app:
-- Create new votes
+The roles and responsibilities of the Allocations Admin can be found [here](https://1hive.org/docs/contribute/allocations-payroll.html). Current Allocations Admins are:
+- [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
 
 <br>
-
-
-
