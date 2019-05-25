@@ -490,3 +490,33 @@ footer iframe {
   background-color: rgba(0, 0, 0, 0.1);
   color: inherit;
 }
+
+div.projects-wrapper {
+  text-align: center;
+}
+
+.projects {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.projects ul {
+  list-style: none;
+}
+
+.projects ul li {
+  display: inline;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+
+.projects ul li a {
+  display: block;
+}
+
+.projects img{
+  padding: 25px;
+  padding-bottom: 0px;
+  height: 100px;
+}
