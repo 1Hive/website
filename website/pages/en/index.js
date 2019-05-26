@@ -50,7 +50,7 @@ class Index extends React.Component {
         <div className="content row">
           <div className="col center">
             <img
-              src="/img/flowers/lotus.png" width="200"
+              src="/img/garden/051-sun.png" width="200"
             />
           </div>
           <div className="col">
@@ -83,7 +83,7 @@ class Index extends React.Component {
           </div>
           <div className="col center">
             <img
-              src="/img/flowers/sunflower.png" width="200"
+              src="/img/garden/051-rain.png" width="200"
             />
           </div>
         </div>
