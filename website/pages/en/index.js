@@ -83,7 +83,7 @@ class Index extends React.Component {
           </div>
           <div className="col center">
             <img
-              src="/img/garden/051-rain.png" width="200"
+              src="/img/garden/051-tree-1.png" width="200"
             />
           </div>
         </div>
@@ -122,7 +122,7 @@ class Index extends React.Component {
         <div className="wrapper col projects-wrapper">
           <div className="projects" align="center">
             <h4>Projects</h4>
-						<h3>Making it a reality</h3>
+						<h3>Our Garden</h3>
             <ul>
               <li>
                 <span><a href="/docs/projects/redemptions.html"><img src="img/flowers/poppy.png" /></a></span>
