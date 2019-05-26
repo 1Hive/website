@@ -122,18 +122,19 @@ class Index extends React.Component {
         <div className="wrapper col projects-wrapper">
           <div className="projects" align="center">
             <h4>Projects</h4>
+						<h3>Making it a reality</h3>
             <ul>
               <li>
-                <span><a href="/docs/projects/redemptions.html"><img src="/img/flowers/poppy.png" /></a></span>
-                <span>Redemptions</span>
+                <span><a href="/docs/projects/redemptions.html"><img src="img/flowers/poppy.png" /></a></span>
+                <h5>Redemptions</h5>
                 </li>
               <li>
-                <span><a href="/docs/projects/commons-license.html"><img src="/img/flowers/chrysanthemum.png" /></a></span>
-                <span>Commons License</span>
+                <span><a href="/docs/projects/commons-license.html"><img src="img/flowers/chrysanthemum.png" /></a></span>
+								<h5>Commons License</h5>
                 </li>
               <li>
-                <span><a href="/docs/projects/apiary.html"><img src="/img/flowers/wallflower.png" /></a></span>
-                <span>Apiary</span>
+                <span><a href="/docs/projects/apiary.html"><img src="img/flowers/wallflower.png" /></a></span>
+                <h5>Apiary</h5>
                 </li>
             </ul>
           </div>

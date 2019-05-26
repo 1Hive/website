@@ -223,7 +223,10 @@ h6 {
 
 footer.nav-footer {
   box-shadow: none;
-  background: #121020;
+	/* original black footer */
+  /* background: #121020; */
+	/* new brown footer */
+	background: #E3A66D;
   font-size: 15px;
 }
 
@@ -516,7 +519,8 @@ div.projects-wrapper {
 }
 
 .projects img{
-  padding: 25px;
+  /* padding: 25px; */
+	padding: 5vmin;
   padding-bottom: 0px;
   height: 100px;
 }
