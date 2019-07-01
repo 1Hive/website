@@ -45,11 +45,14 @@ const siteConfig = {
 
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
-    {doc: 'projects/projects-welcome', label: 'Projects'},
+    {doc: 'projects/dandelion-orgs/dandelion-overview', label: 'Projects'},
     {blog: true, label: 'Blog'},
   ],
 
   editUrl: 'https://github.com/1Hive/website/blob/master/docs/',
+  cleanUrl: true,
+  docsUrl:'',
+
 
   /* path to images for header/footer */
   headerIcon: 'img/bee.png',

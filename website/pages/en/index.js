@@ -59,7 +59,7 @@ class Index extends React.Component {
             <p>
               We are building applications which help communities securely and transparently operate digital cooperatives. These organizational tools can help open source projects attract and fairly reward contributors.
             </p>
-            <a className="learnmore" href="/docs/projects/apiary">
+            <a className="learnmore" href="/contribute/welcome">
               Learn more
             </a>
           </div>
@@ -77,7 +77,7 @@ class Index extends React.Component {
             <p>
               We believe that finding sustainable funding sources for open source projects is critical to growing the open source commons. To that end we are advocating for a novel open source license which combines the best aspects of <strong>copyleft</strong> and <strong>permissive</strong> style open source licensing.
             </p>
-            <a className="learnmore" href="/docs/projects/commons-license">
+            <a className="learnmore" href="/projects/commons-license">
               Learn more
             </a>
           </div>
@@ -125,15 +125,15 @@ class Index extends React.Component {
 						<h3>Our Garden</h3>
             <ul>
               <li>
-                <span><a href="/docs/projects/redemptions.html"><img src="img/flowers/poppy.png" /></a></span>
-                <h5>Redemptions</h5>
+                <span><a href="/projects/dandelion-orgs/dandelion-overview"><img src="img/flowers/poppy.png" /></a></span>
+                <h5>Dandelion Orgs</h5>
                 </li>
               <li>
-                <span><a href="/docs/projects/commons-license.html"><img src="img/flowers/chrysanthemum.png" /></a></span>
+                <span><a href="/projects/commons-license"><img src="img/flowers/chrysanthemum.png" /></a></span>
 								<h5>Commons License</h5>
                 </li>
               <li>
-                <span><a href="/docs/projects/apiary.html"><img src="img/flowers/wallflower.png" /></a></span>
+                <span><a href="/projects/apiary"><img src="img/flowers/wallflower.png" /></a></span>
                 <h5>Apiary</h5>
                 </li>
             </ul>
