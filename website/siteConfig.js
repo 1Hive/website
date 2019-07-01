@@ -17,7 +17,7 @@ const siteConfig = {
 
 	// PUBLISHING PARAMS
 	/////////////////////////////////////////////////////////////////////////
-	
+
 	// EXAMPLE
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -26,18 +26,18 @@ const siteConfig = {
 	// (no longer needed, but keep just in case)
 	// UNCOMMENT FOR LOCAL DEVELOPMENT
 	//url: 'https://your-docusaurus-test-site.com', // Your website URL
-	//baseUrl: '/', // Base URL for your project 
-	
-	// (no longer needed, but keep just in case)
-	// UNCOMMENT FOR PUBLISHING TO GH-PAGES 
-	//url: 'https://1hive.github.io', // Your website URL
-	//baseUrl: '/website/', // Base URL for your project 
+	//baseUrl: '/', // Base URL for your project
 
-	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE 
-	url: 'http://1hive.org', // your website url 
-	baseUrl: '/', // base url for your project 
+	// (no longer needed, but keep just in case)
+	// UNCOMMENT FOR PUBLISHING TO GH-PAGES
+	//url: 'https://1hive.github.io', // Your website URL
+	//baseUrl: '/website/', // Base URL for your project
+
+	// UNCOMMENT FOR PUBLISHING TO THE WEBSITE
+	url: 'http://1hive.org', // your website url
+	baseUrl: '/', // base url for your project
 	cname: '1hive.org', // custome domain file for gh pages
-	
+
 	/////////////////////////////////////////////////////////////////////////
 
   projectName: '1Hive',
@@ -46,7 +46,6 @@ const siteConfig = {
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
     {doc: 'projects/projects-welcome', label: 'Projects'},
-    {doc: 'wiki/guides/getting-started', label: 'Wiki'},
     {blog: true, label: 'Blog'},
   ],
 
