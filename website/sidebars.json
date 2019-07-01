@@ -18,30 +18,5 @@
       "projects/apiary",
       "projects/commons-license"
     ]
-  },
-  "wiki": {
-    "Guides": [
-      "wiki/guides/getting-started",
-			"wiki/guides/1Hive",
-      "wiki/guides/democracy",
-      "wiki/guides/multisig"
-    ],
-    "Concepts": [
-      "wiki/concepts/bonding-curve",
-      "wiki/concepts/cryptoeconomics",
-      "wiki/concepts/harberger-taxes",
-      "wiki/concepts/proxy-voting",
-      "wiki/concepts/tcr"
-    ],
-    "Apps": [
-      "wiki/apps/redemption",
-      "wiki/apps/token-manager",
-      "wiki/apps/vault",
-      "wiki/apps/voting",
-      "wiki/apps/finance",
-      "wiki/apps/projects",
-      "wiki/apps/allocation",
-      "wiki/apps/dot-voting"
-    ]
   }
 }
