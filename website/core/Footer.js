@@ -38,6 +38,9 @@ class Footer extends React.Component {
           <div>
             <h5>Projects</h5>
 
+            <a href={this.docUrl('projects/dandelion-orgs/dandelion-overview', this.props.language)}>
+              Dandelion Orgs
+            </a>
             <a href={this.docUrl('projects/apiary', this.props.language)}>
               Apiary
             </a>
@@ -51,16 +54,13 @@ class Footer extends React.Component {
             <a href={this.docUrl('contribute/welcome', this.props.language)}>
               Contributors Guide
             </a>
-            <a href="https://keybase.io/team/1hive">Project Chat</a>
+            <a href={this.docUrl('contribute/keybase', this.props.language)}>Project Chat</a>
             <a href="https://github.com/1hive">GitHub</a>
 
           </div>
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href={this.docUrl('wiki/guides/getting-started', this.props.language)}>
-              Wiki
-            </a>
           </div>
         </section>
 

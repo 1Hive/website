@@ -510,6 +510,7 @@ div.projects-wrapper {
   list-style: none;
   float: left;
   text-align: center;
+  margin-top: 0;
 }
 
 .projects ul li a {
