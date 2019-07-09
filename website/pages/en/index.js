@@ -132,10 +132,6 @@ class Index extends React.Component {
                 <span><a href="/projects/commons-license"><img src="img/flowers/chrysanthemum.png" /></a></span>
 								<h5>Commons License</h5>
                 </li>
-              <li>
-                <span><a href="/projects/apiary"><img src="img/flowers/wallflower.png" /></a></span>
-                <h5>Apiary</h5>
-                </li>
             </ul>
           </div>
         </div>
