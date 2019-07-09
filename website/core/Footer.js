@@ -41,9 +41,6 @@ class Footer extends React.Component {
             <a href={this.docUrl('projects/dandelion-orgs/dandelion-overview', this.props.language)}>
               Dandelion Orgs
             </a>
-            <a href={this.docUrl('projects/apiary', this.props.language)}>
-              Apiary
-            </a>
             <a href={this.docUrl('projects/commons-license', this.props.language)}>
               Commons License
             </a>
