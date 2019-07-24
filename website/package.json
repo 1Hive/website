@@ -1,8 +1,11 @@
 {
   "scripts": {
     "examples": "docusaurus-examples",
-    "start": "docusaurus-start",
-    "build": "docusaurus-build",
+		"clean:docs": "rm -r ../docs/sync/*",
+		"sync:dandelion-apps": "node ./scripts/sync-dandelion-apps.js",
+    "generate": "npm run clean:docs && npm run sync:dandelion-apps",
+    "start": "npm run generate && docusaurus-start",
+    "build": "npm run generate && docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
