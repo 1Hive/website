@@ -10,7 +10,7 @@ title: Getting Started With Blockchain Basics
 
 ## [Chrome 🌈](https://www.google.com/chrome/)
 
-Often early stage software projects have not done cross-browser compatability testing. This means that Chrome is your safest bet for getting things to work. Runners up include [Brave](https://brave.com/) and [Firefox](https://www.mozilla.org/en-US/firefox/).
+Often early stage software projects have not done cross-browser compatibility testing. This means that Chrome is your safest bet for getting things to work. Runners up include [Brave](https://brave.com/) and [Firefox](https://www.mozilla.org/en-US/firefox/).
 
 <br>
 
@@ -62,7 +62,7 @@ Autark is passionate about building toward a world where progress is accelerated
 
 ### [Roll Your Own DAO W TPS!](https://rinkeby.autark.xyz/#/)
 
-### [Intgrate TPS With A Previously Deployed DAO](https://github.com/AutarkLabs/planning-suite/blob/master/docs/GETTING_STARTED.md)
+### [Integrate TPS With A Previously Deployed DAO](https://github.com/AutarkLabs/planning-suite/blob/master/docs/GETTING_STARTED.md)
 
 
 <br>

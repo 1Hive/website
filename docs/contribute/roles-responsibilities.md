@@ -6,7 +6,7 @@ title: 1Hive Roles and Responsibilities
 
 ## Workers
 
-Anyone can contribute to the 1Hive DAO by working engaging eith the community on Keybase, creating new Issues on GitHub, working on open Issues on GitHub. This does not require anyone's permission. Reviewers can assign tasks to the contributor's GitHub account and pay out HONEY bounties to the worker's Ethereum address upon successful completion. This does not require any permissions within the 1Hive DAO.
+Anyone can contribute to the 1Hive DAO by engaging with the community on Keybase, creating new Issues on GitHub, working on open Issues on GitHub. This does not require anyone's permission. Reviewers can assign tasks to the contributor's GitHub account and pay out HONEY bounties to the worker's Ethereum address upon successful completion. This does not require any permissions within the 1Hive DAO.
 
 The roles and responsibilities of curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-workers).
 
@@ -17,7 +17,7 @@ If a Worker earns (or purchases) HONEY, they will have HONEY voting rights withi
 
 ## BEEs
 
-The roles and responsibilites of BEEs can be found [here](https://1hive.org/docs/contribute/membership.html#membership-guidelines). Current BEEs are:
+The roles and responsibilities of BEEs can be found [here](https://1hive.org/docs/contribute/membership.html#membership-guidelines). Current BEEs are:
 - [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
 - [burrrata](https://github.com/burrrata) - @burrrata on Keybase
 - [Gabriel Garcia](https://github.com/0xGabi) - @goliat on Keybase
@@ -45,7 +45,7 @@ Current HONEY Holders can be found on the 1Hive DAO in the [token manager](https
 
 ## Curators
 
-The roles and responsibilites of Curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current Curators are:
+The roles and responsibilities of Curators can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current Curators are:
 - [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
 - [burrrata](https://github.com/burrrata) - @burrrata on Keybase
 
@@ -59,7 +59,7 @@ The roles and responsibilites of Curators can be found [here](https://1hive.org/
 
 ## Reviewers
 
-The roles and responsibilites of Reviewers can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current Reviewers are:
+The roles and responsibilities of Reviewers can be found [here](https://1hive.org/docs/contribute/projects-tasks.html#expectations-of-curators). Current Reviewers are:
 - [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
 - [burrrata](https://github.com/burrrata) - @burrrata on Keybase
 
@@ -69,7 +69,7 @@ The roles and responsibilites of Reviewers can be found [here](https://1hive.org
 
 <br>
 
-## Alocations Admin
+## Allocations Admin
 
 The roles and responsibilities of the Allocations Admin can be found [here](https://1hive.org/docs/contribute/allocations-payroll.html). Current Allocations Admins are:
 - [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase

@@ -10,7 +10,7 @@ title: Democracy
 
 ## What is a Democracy?
 
-A “Token project with Democracy” is an organization where the vote cast by a tokenholder is weighted proportionally to their ownership stake of tokens minted by the organization. For example, if a tokenholder owns 5% of the tokens minted by the organization then their vote will count as 5% of the total votes on a given proposal.
+A “Token project with Democracy” is an organization where the vote cast by a token holder is weighted proportionally to their ownership stake of tokens minted by the organization. For example, if a token holder owns 5% of the tokens minted by the organization then their vote will count as 5% of the total votes on a given proposal.
 
 <br>
 

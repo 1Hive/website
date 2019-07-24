@@ -10,7 +10,7 @@ Dot voting allows you to split up your votes just like you split up a pie.
 
 ## What is dot voting?
 
-[Dot voting](https://en.wikipedia.org/wiki/Dot-voting) is when voters can split thier vote into multiple pieces, then vote for multiple things. Imagine you have a pie. The pie is your vote. You can cut the pie up into different sized pieces and give them to the vandidates you support. This means that instead you giving a candidate all or none of the pie, you can support different votes with different levels of enthusiasm. This is useful to increase participation so people don't feel locked into any option they don't fully agree with. 
+[Dot voting](https://en.wikipedia.org/wiki/Dot-voting) is when voters can split their vote into multiple pieces, then vote for multiple things. Imagine you have a pie. The pie is your vote. You can cut the pie up into different sized pieces and give them to the candidates you support. This means that instead you giving a candidate all or none of the pie, you can support different votes with different levels of enthusiasm. This is useful to increase participation so people don't feel locked into any option they don't fully agree with. 
 
 <br>
 

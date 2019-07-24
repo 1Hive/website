@@ -4,7 +4,7 @@ sidebar_label: Cryptoeconomics
 title: Cryptoeconomics
 ---
 
-Using cryptography and economics to create enforcable and verifiable positive-sum games that align the interests of all parties involved
+Using cryptography and economics to create enforcible and verifiable positive-sum games that align the interests of all parties involved
 
 <br>
 

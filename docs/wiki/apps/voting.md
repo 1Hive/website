@@ -10,7 +10,7 @@ Create votes that execute actions on behalf of token holders.
 
 ## What is the voting app?
 
-The voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Multisig organization.
+The voting app makes it easy for you to poll your fellow token holders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by token holders in a Multisig organization.
 
 <br>
 

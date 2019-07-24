@@ -10,7 +10,7 @@ N of m keys must sign to make decisions
 
 ## What is a multi-sig?
 
-A “Token project with Multisig” is an organization where the resources of the organization are controlled by m-of-n members of a multisig contract, where n is 100% of tokenholders and m is the Min. Quorum percentage of tokenholders that must approve a vote for it to pass. For example, in a 2-of-2 multisig organization, two signatures from two different specified accounts are required for a proposal to pass.
+A “Token project with Multisig” is an organization where the resources of the organization are controlled by m-of-n members of a multisig contract, where n is 100% of token holders and m is the Min. Quorum percentage of token holders that must approve a vote for it to pass. For example, in a 2-of-2 multisig organization, two signatures from two different specified accounts are required for a proposal to pass.
 
 <br>
 

@@ -135,7 +135,7 @@ Also, before submitting any more PRs or pushes make sure that `siteConfig.js` is
 If you want the fun minimap to show up on the left side of the screen you need to use \#\# before each title.
 
 Remember, that for the website to actually display stuff in `docs` or `blog`, you need to link them
-- [Navigation and Sidebars](https://docusaurus.io/docs/en/navigation) - this explains how to link a new Markdown document to the rest of the webiste.
+- [Navigation and Sidebars](https://docusaurus.io/docs/en/navigation) - this explains how to link a new Markdown document to the rest of the website.
 
 <br>
 

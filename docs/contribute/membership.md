@@ -8,7 +8,7 @@ title: Membership and Participation
 
 After joining keybase and becoming an established community member individuals can request formal membership in the 1Hive organization that is currently [deployed on rinkeby](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211). All new members must be voted in by existing members.
 
-Formal members are identified by a non-transferrable `Bee` token, which grants them various rights related to the governance of the 1Hive organization.
+Formal members are identified by a non-transferable `Bee` token, which grants them various rights related to the governance of the 1Hive organization.
 
 To request membership simply ask an existing member in the keybase chat, and they can create a vote to mint you a `Bee` token.
 
@@ -19,7 +19,7 @@ To request membership simply ask an existing member in the keybase chat, and the
 
 - If a member becomes inactive, the remaining members should vote to remove them.
 
-- Members are responsible for minting and budgeting `Honey`, a separate transferrable token issued by the organization.
+- Members are responsible for minting and budgeting `Honey`, a separate transferable token issued by the organization.
 
 ### Why `Honey`?
 

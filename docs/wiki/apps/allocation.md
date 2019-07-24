@@ -12,7 +12,7 @@ Rewarding and recognizing contributions.
 
 The Allocations app is used to propose a financial allocation meant to be distributed to multiple parties. Allocation proposals are forwarded to the Dot Voting app. The percentage of the allocation amount distributed to each party is determined based on the results of the Dot Vote.
 
-Right... so if you want to set aside a portion of your DAOs tokens/budget for allocations, you can! Then on a regular interval members of the DAO can vote to allocate funds however they want. One example of this is rewarding outstanding community contributions. Think of it as an employee of the month program, but as often and as granular as you want. You could also have a charity that the DAO donates to on a regular basis, and the community could choose where to direct those funds. The options are limitless! If you think of a great usecase please let us know by opening an Issue :)
+Right... so if you want to set aside a portion of your DAOs tokens/budget for allocations, you can! Then on a regular interval members of the DAO can vote to allocate funds however they want. One example of this is rewarding outstanding community contributions. Think of it as an employee of the month program, but as often and as granular as you want. You could also have a charity that the DAO donates to on a regular basis, and the community could choose where to direct those funds. The options are limitless! If you think of a great use case please let us know by opening an Issue :)
 
 <br>
 

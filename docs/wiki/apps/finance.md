@@ -10,7 +10,7 @@ The purpose of the Finance app is to be the central point for keeping track of i
 
 ## What is the finance app?
 
-The Finance app is the app that provides tokenholders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
+The Finance app is the app that provides token holders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
 
 <br>
 

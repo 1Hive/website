@@ -18,7 +18,7 @@ If that's not enough [Simon de la Rouviere](https://medium.com/@simondlr) has lo
 
 <br>
 
-## What are Token Curated Registies good for?
+## What are Token Curated Registries good for?
 
 See Simon's blog posts ☝️
 
