@@ -72,6 +72,6 @@ The roles and responsibilities of Reviewers can be found [here](https://1hive.or
 ## Allocations Admin
 
 The roles and responsibilities of the Allocations Admin can be found [here](https://1hive.org/docs/contribute/allocations-payroll.html). Current Allocations Admins are:
-- [Luke Duncan](https://github.com/lkngtn) - @lkngtn on Keybase
+- [burrrata](https://github.com/burrrata) - @burrrata on Keybase
 
 <br>
