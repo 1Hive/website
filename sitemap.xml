@@ -7,6 +7,7 @@
 <url> <loc>http://1hive.org/blog/2018/07/16/liquid-democracy-ethereum,-and-the-slow-path-to-revolution</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>http://1hive.org/blog/2017/07/04/introducing-hive-commons</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>http://1hive.org/contribute/allocations-payroll</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/contribute/allocations-payroll" /> </url>
+<url> <loc>http://1hive.org/contribute/bug-bounty</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/contribute/bug-bounty" /> </url>
 <url> <loc>http://1hive.org/contribute/github</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/contribute/github" /> </url>
 <url> <loc>http://1hive.org/contribute/keybase</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/contribute/keybase" /> </url>
 <url> <loc>http://1hive.org/contribute/membership</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/contribute/membership" /> </url>
