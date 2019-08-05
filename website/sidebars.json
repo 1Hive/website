@@ -19,7 +19,7 @@
           "label": "Dandelion Orgs",
           "ids": [
 						"projects/dandelion-orgs/dandelion-overview",
-						"sync/dandelion/redemptions-overview",
+						"sync/redemptions-overview",
 						"projects/dandelion-orgs/token-request-app",
 						"projects/dandelion-orgs/lock-app",
 						"projects/dandelion-orgs/delay-app",
