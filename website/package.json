@@ -1,7 +1,7 @@
 {
   "scripts": {
     "examples": "docusaurus-examples",
-		"clean:docs": "rm -r ../docs/sync/*",
+		"clean:docs": "rm -rf ../docs/sync/*",
 		"sync:dandelion-apps": "node ./scripts/sync-dandelion-apps.js",
     "generate": "npm run clean:docs && npm run sync:dandelion-apps",
     "start": "npm run generate && docusaurus-start",
