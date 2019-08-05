@@ -27,7 +27,7 @@ class Index extends React.Component {
                 href="https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0xc2555abaed3797b52248e814172d2bea6728e542">
                 Open 1Hive DAO
               </a>
-              <a className="landing-btn" href="/docs/contribute/welcome">
+              <a className="landing-btn" href="/contribute/welcome">
                 Learn more
               </a>
             </div>
