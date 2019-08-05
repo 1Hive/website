@@ -22,6 +22,6 @@ All repos should use include a Contribution Guide in the `README.md` file in the
 
 #### Task Bounties and Issue Tags
 
-As discussed in the [Projects and Tasks](contribute/projects-tasks) section of this guide, we use the **Projects** app in the 1Hive organization to coordinate and reward effort on specific tasks which are represented by Github issues.
+As discussed in the [Projects and Tasks](/contribute/projects-tasks) section of this guide, we use the **Projects** app in the 1Hive organization to coordinate and reward effort on specific tasks which are represented by Github issues.
 
 Currently there is no way to view the funding status of an issue within Github, though this should be solved by a github bot in the future. For now, we expect **Curators** to manually attach the `Funded` tag to issues after they have been funded. And we expect **Workers** to assign themselves to issues after they have been assigned a task in the Aragon organization.
