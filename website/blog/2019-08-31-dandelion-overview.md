@@ -25,6 +25,8 @@ We expected this to be fairly straightforward, but it turns out that in order to
 - Delay
 - Dissent Oracle
 
+![Dandelion Org Overview](1Hive Dandelion Org 🌼 Rage Quit Flow.png')
+
 We will release these apps individually for any Aragon DAO to incorporate as well as in an easy to deploy template that combines these apps to replicate the functionality of MolochDAO on Aragon.
 
 ### Redemptions:
