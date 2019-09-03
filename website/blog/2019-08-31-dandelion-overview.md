@@ -4,7 +4,7 @@ author: 1Hive team
 authorURL: https://github.com/1hive
 ---
 
-1Hive recently received an Aragon Nest [grant](https://github.com/aragon/nest/issues/168) to build Dandelion Orgs, a set of Aragon applications and an organization template for deploying an Aragon DAO that is functionally similar to [MolochDAO](https://MolochDAOdao.com), but with the notable advantage of modularity and extensibility provided by the Aragon platform and its growing library of applications.
+1Hive recently received an Aragon Nest [grant](https://github.com/aragon/nest/issues/168) to build Dandelion Orgs, a set of Aragon applications and an organization template for deploying an Aragon DAO that is functionally similar to [MolochDAO](https://molochdao.com), but with the notable advantage of modularity and extensibility provided by the Aragon platform and its growing library of applications.
 
 The fundamental mechanism that defines MolochDAO is the ability for members to exit the organization with a proportional share of the organization's assets, so long as they have not recently voted to approve a pending proposal. This creates a *loose partnership* where members can exit before a bad or otherwise controversial decision is made, and because of that guarantee there is less friction for collaboration in the first place.
 
