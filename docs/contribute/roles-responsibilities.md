@@ -24,7 +24,7 @@ The roles and responsibilities of BEEs can be found [here](https://1hive.org/con
 - [Rodrigo Perez](https://github.com/rperez89) - @rperez89 on Keybase
 - [William Griffiths](https://github.com/willjgriff) - @willjgriff on Keybase
 - [Fabrizio Vigevani](https://github.com/fabriziovigevani) - @fabriv on Keybase
-- [Oliver](https://github.com/onbjerg) @onbjerg on Keybase
+- [Oliver](https://github.com/onbjerg) - @onbjerg on Keybase
 
 [1Hive DAO](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211) workers have the following permissions in the BEE token Voting app:
 - Create new votes
