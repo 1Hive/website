@@ -4,7 +4,7 @@
         <title>1Hive Blog</title>
         <link>http://1hive.org/blog</link>
         <description>The best place to stay up-to-date with the latest 1Hive news and events.</description>
-        <lastBuildDate>Tue, 14 Aug 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Aug 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://1hive.org/blog</link>
         </image>
         <copyright>Copyright © 2019 1Hive</copyright>
+        <item>
+            <title><![CDATA[🌼 Dandelion = 👹 MolochDAO + 🦅 Aragon]]></title>
+            <link>http://1hive.org/blog/2019/08/31/dandelion-overview.html</link>
+            <guid>http://1hive.org/blog/2019/08/31/dandelion-overview.html</guid>
+            <pubDate>Sat, 31 Aug 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>1Hive recently received an Aragon Nest <a href="https://github.com/aragon/nest/issues/168">grant</a> to build Dandelion Orgs, a set of Aragon applications and an organization template for deploying an Aragon DAO that is functionally similar to <a href="https://molochdao.com">MolochDAO</a>, but with the notable advantage of modularity and ex...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[Harberger Taxation and Open Source]]></title>
             <link>http://1hive.org/blog/2018/08/14/harberger-taxation-and-open-source.html</link>

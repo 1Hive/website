@@ -2,12 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://1hive.org/blog</id>
     <title>1Hive Blog</title>
-    <updated>2018-08-14T06:00:00Z</updated>
+    <updated>2019-08-31T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://1hive.org/blog"/>
     <subtitle>The best place to stay up-to-date with the latest 1Hive news and events.</subtitle>
     <logo>http://1hive.org/img/bee.png</logo>
     <rights>Copyright © 2019 1Hive</rights>
+    <entry>
+        <title type="html"><![CDATA[🌼 Dandelion = 👹 MolochDAO + 🦅 Aragon]]></title>
+        <id>http://1hive.org/blog/2019/08/31/dandelion-overview.html</id>
+        <link href="http://1hive.org/blog/2019/08/31/dandelion-overview.html">
+        </link>
+        <updated>2019-08-31T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>1Hive recently received an Aragon Nest <a href="https://github.com/aragon/nest/issues/168">grant</a> to build Dandelion Orgs, a set of Aragon applications and an organization template for deploying an Aragon DAO that is functionally similar to <a href="https://molochdao.com">MolochDAO</a>, but with the notable advantage of modularity and ex...</p>]]></summary>
+        <author>
+            <name>1Hive team</name>
+            <uri>https://github.com/1hive</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Harberger Taxation and Open Source]]></title>
         <id>http://1hive.org/blog/2018/08/14/harberger-taxation-and-open-source.html</id>
