@@ -25,7 +25,7 @@ We expected this to be fairly straightforward, but it turns out that in order to
 - Delay
 - Dissent Oracle
 
-<img src='https://i.imgur.com/hTk28Xz.png' alt='Dandelion Org Overview' />
+<img src='https://i.imgur.com/iWz0CR7.png' alt='Dandelion Org Overview' />
 
 We will release these apps individually for any Aragon DAO to incorporate as well as in an easy to deploy template that combines these apps to replicate the functionality of MolochDAO on Aragon.
 
