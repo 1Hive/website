@@ -14,13 +14,16 @@ On a weekly basis, we use the **Allocations** application to distribute a fixed 
 
 The weekly allocations amount is determined by `Bee` vote, and then split between nominees using the **Dot Voting** application.
 
-Any member of the organization can nominate any other member for an allocation period simply by saying so in the keybase #nominations channel.
+Members of the organization can nominate anyone who has contributed value to the DAO by saying so in the keybase #nominations channel.
 
-An *Allocations Admin* is responsible for creating the weekly allocations vote and including all nominees each Monday.
+The *Allocations Admin* is responsible for adding people who are nominated to the DAO's Address Book. Whenever someone is added to the Address Book an announcement needs to be made in the #announcements channel @ mentioning the person added, specifying what name and address was added, and linking to the Address Book in the DAO. This will make it easy for people who are nominated to double check that the correct address was added without requiring the entire group to vote every time.
 
-Allocations are useful for rewarding ad-hoc contributions or exemplary behavior above and beyond normal expectations. However, those with longer-term roles -- Curators, Reviewers, and members who maintain the organization's infrastructure -- are best compensated with fixed recurring payments through the **Payroll** application.
+The *Allocations Admin* will then create a weekly allocations vote and including all nominees.
+
+> Allocations are useful for rewarding ad-hoc contributions or exemplary behavior above and beyond normal expectations. However, those with longer-term roles -- Curators, Reviewers, and members who maintain the organization's infrastructure -- are best compensated with fixed recurring payments through the **Payroll** application.
 
 ### Expectations for Nomination
+
 Members should nominate other members and provide an anecdote for why they are making the nomination.
 
 A nomination is like saying "thank you" for going above and beyond in some way.
@@ -28,6 +31,7 @@ A nomination is like saying "thank you" for going above and beyond in some way.
 There is no minimum or maximum number of nominations you can make in a given week, but they should be sincere. It should feel good and somewhat unexpected to be nominated.
 
 ### Expectations for Payroll
+
 Payroll is intended to provide a baseline compensation level for consistent contributors.
 
 Payroll is calculated separately from any compensation earned through tasks or allocations, so it shouldn't be compared to an equivalent salary.
