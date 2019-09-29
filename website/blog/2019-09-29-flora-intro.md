@@ -28,7 +28,7 @@ Just like burner wallet allows users to get started right away, and gradually in
 
 ### Strategy, Aragon PMF, and Aragon GTM
 
-Soon the Aragon strategy NestDAO grants program will be aligned to fund projects that increase the value of Aragon as a platform as well as ANT. With the abilty to offer both fast and cheap Aragon DAOs as well as sovereign DAOs we will be able to attract more talent and have higher quality deal flow to the Nest program. This will allow the NestDAO to fund more small scale bottom-up projects faster and cheaper than the current monolithic Flock proposals. This will increase the value of Aragon as a platform and position us to take control of expanding marketshare as the space develops. If successful, this will lead to more Aragon app developers, more/better apps, more value for Aragon as a platform, more funds to support development, more developers, etc...
+Aragon wants to fund projects that increase the value of Aragon as a platform as well as ANT. Flora offers the ability to offer developers both fast and cheap Aragon DAOs as well as sovereign DAOs. This greatly expands the potential use cases for Aragon, allowing us to build more and attract more talent to the community. This will allow the NestDAO to fund more small scale bottom-up projects faster and cheaper than the current monolithic Flock proposals. This will increase the value of Aragon as a platform; positioning us to take control of expanding marketshare as the space develops. If successful, this will lead to more Aragon app developers, more/better apps, more value for Aragon as a platform, more funds to support development, more developers, etc...
 
 ### Sustainability
 
