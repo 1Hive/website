@@ -8,6 +8,7 @@ authorURL: https://github.com/1hive
 
 Why did we take this approach? MolochDAO was developed with a philosophy of minimizing complexity and code footprint. The organization does not try and do everything, but what it does do it does very well. In contrast, Aragon has been built with a philosophy of modularity and code-reuse. The Aragon ecosystem is growing a library of useful, audited, off-the-shelf apps that can be used in any Aragon DAO. After reviewing the [MolochDAO specification](https://github.com/MolochDAOVentures/MolochDAO) we determined the key features of MolochDAO that we wanted to replicate and set out to build them as Aragon apps. This would allow any Aragon organization to adopt similar mechanisms while also staying true to the Aragon development philosophy of creating modular and re-usable components.
 
+
 The fundamental mechanism that defines MolochDAO is the ability for members to exit the organization with a proportional share of the organization's assets, so long as they have not recently voted to approve a pending proposal. This creates a *loose partnership* where members can exit before a bad or otherwise controversial decision is made. This guarantee reduces friction for collaboration in the first place.
 
 In addition to providing this core feature, we wanted to meet the following requirements:
