@@ -10,7 +10,7 @@ Why did we take this approach? MolochDAO was developed with a philosophy of mini
 
 The fundamental mechanism that defines MolochDAO is the ability for members to exit the organization with a proportional share of the organization's assets, so long as they have not recently voted to approve a pending proposal. This creates a *loose partnership* where members can exit before a bad or otherwise controversial decision is made. This guarantee reduces friction for collaboration in the first place.
 
-In addition to providing this core feature, we are also enabling the following features:
+In addition to providing this core feature, we wanted to meet the following requirements:
 
 1) Members can redeem tokens for a proportional share of the organizations assets.
 2) It is possible to restrict exit actions based on whether a member has voted yes in a pending proposal.
@@ -18,12 +18,12 @@ In addition to providing this core feature, we are also enabling the following f
 4) Proposals require the proposer to lock tokens in order to ensure that the incentives of voters are aligned with their votes.
 5) Users who vote no, or do not vote, can see whether a proposal has passed before deciding to exit.
 
-We expected this to be fairly straightforward. Turns out it's not. In order to make Dandelion Orgs work we dug into some of the lesser known features of the aragonOS like [ACL Oracles](https://hack.aragon.org/docs/acl_IACLOracle). ACL Oracles are small helper functions that plug in to Aragon's  access control list (ACL) to do more sophisticated permission evaluation. ACL Oracles are a complex and powerful feature of the aragonOS. In the future we plan to write a more thorough post about how we used them and how others might do the same. This post, however, will will be a high level overview of the apps that combine to make the Dandelion Org template.
+We expected this to be fairly straightforward. Turns out it's not. In order to make Dandelion Orgs work we dug into some of the lesser known features of the aragonOS like [ACL Oracles](https://hack.aragon.org/docs/acl_IACLOracle). ACL Oracles are small helper functions that plug in to Aragon's  access control list (ACL) to do more sophisticated permission evaluation. ACL Oracles are a complex and powerful feature of aragonOS. In the future we plan to write a more thorough post about how we used them and how others might do the same. This post, however, will will be a high level overview of the apps that combine to make the Dandelion Org template.
 - Redemptions
 - Token Request
 - Time Lock
 - Delay
-- Dissent Oracle
+- Dissent Voting
 
 These apps will be released individually for any Aragon DAO to use. We will also ship an easy to deploy template that combines all of these apps to create a Moloch like DAO on Aragon.
 
@@ -34,7 +34,7 @@ These apps will be released individually for any Aragon DAO to use. We will also
 
 The Redemptions app is similar in purpose to that of MolochDAO's ragequit function. To accomplish this the logic of whether or not a member can redeem their token is externalized using Aragon's permission system.
 
-Unlike the ragequit mechanism in MolochDAO, Redemptions works with both ETH and ERC20 tokens. An organization can manage an array of eligible tokens for members to offer as tribute or to redeem from the vault. Like MolochDAO, members still receive a share of the DAO's assets proportional the amount of Dandelion Org tokens they are redeeming.
+Unlike the ragequit mechanism in MolochDAO, Redemptions works with both ETH and ERC20 tokens. An organization can manage an array of eligible tokens for members to offer in exchange for Dandelion Org tokens and/or to redeem from the vault. Like MolochDAO, members still receive a share of the DAO's assets proportional the amount of Dandelion Org tokens they are redeeming.
 
 This allows Dandelion Orgs to hold a strategic portfolio of liquid assets as opposed to only ETH.
 
@@ -49,7 +49,7 @@ MolochDAO has two proposal types: one where shares are minted in exchange for tr
 
 We created the Token Request app to allow addresses to create a request for a Dandelion Org's membership tokens in exchange for any other ERC-20 tokens. Dandelion Org members can then choose to accept or deny the address's request. Dandelion Orgs will also be able to create proposals to allocate funds via the voting and finance apps. In addition, Dandelion Orgs also allow members to create many more types of proposals depending on how permissions are set and which apps are installed. With an app like [Aragon Agent](https://twitter.com/lkngtn/status/1147237525150425089) Dandelion Orgs can create proposals that interact with any external contract.
 
-We anticipate that the Token Request app will be of benefit, not just to Dandelion Orgs, but the wider Aragon ecosystem. One use case would be a form of permissioned fundraising. The most popular method of fundraising in the Ethereum ecosystem is the ICO. This is somewhat similar to an IPO as tokens are free for purchase and trade on open markets. The Token Request app allows for selective and negotiated token sales. This is somewhat similar to the venture model where startups and investors negotiate, agree on a price, and then investors get voting rights and a share of the company in exchange for cash.
+We anticipate that the Token Request app will be of benefit, not just to Dandelion Orgs, but the wider Aragon ecosystem. One use case would be a form of permissioned fundraising. The Token Request app allows for selective and negotiated token sales. This is somewhat similar to the venture model where startups and investors negotiate, agree on a price, and then investors get voting rights and a share of the company in exchange for cash.
 
 ### Lock:
 
