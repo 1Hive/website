@@ -14,11 +14,11 @@
         </image>
         <copyright>Copyright © 2019 1Hive</copyright>
         <item>
-            <title><![CDATA[🌼 Dandelion = 👹 MolochDAO + 🦅 Aragon]]></title>
+            <title><![CDATA[🌼 Dandelion Orgs: 👹 MolochDAO + 🦅 Aragon]]></title>
             <link>http://1hive.org/blog/2019/08/31/dandelion-overview.html</link>
             <guid>http://1hive.org/blog/2019/08/31/dandelion-overview.html</guid>
             <pubDate>Sat, 31 Aug 2019 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>1Hive recently received an Aragon Nest <a href="https://github.com/aragon/nest/issues/168">grant</a> to build Dandelion Orgs, a set of Aragon applications and an organization template for deploying an Aragon DAO that is functionally similar to <a href="https://molochdao.com">MolochDAO</a>, but with the notable advantage of modularity and ex...</p>]]></description>
+            <description><![CDATA[<p>1Hive recently received an <a href="https://github.com/aragon/nest/issues/168">Aragon Nest grant</a> to build Dandelion Orgs. What are Dandelion Orgs you might ask? Dandelion Orgs are a suite of Aragon apps that, when combined, create an Aragon DAO that is functionally similar to <a href="https://molochdao.com">MolochDAO</a>. Unlike MolochD...</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Harberger Taxation and Open Source]]></title>
@@ -39,7 +39,7 @@
             <link>http://1hive.org/blog/2017/07/04/introducing-hive-commons.html</link>
             <guid>http://1hive.org/blog/2017/07/04/introducing-hive-commons.html</guid>
             <pubDate>Tue, 04 Jul 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/introducing-hive-commons-95dad77814bb">Introducing Hive Commons</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, and goals of...</p></blockquote>]]></description>
+            <description><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/introducing-hive-commons-95dad77814bb">Introducing Hive Commons</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, and goals of ...</p></blockquote>]]></description>
         </item>
     </channel>
 </rss>

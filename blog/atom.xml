@@ -9,12 +9,12 @@
     <logo>http://1hive.org/img/bee.png</logo>
     <rights>Copyright © 2019 1Hive</rights>
     <entry>
-        <title type="html"><![CDATA[🌼 Dandelion = 👹 MolochDAO + 🦅 Aragon]]></title>
+        <title type="html"><![CDATA[🌼 Dandelion Orgs: 👹 MolochDAO + 🦅 Aragon]]></title>
         <id>http://1hive.org/blog/2019/08/31/dandelion-overview.html</id>
         <link href="http://1hive.org/blog/2019/08/31/dandelion-overview.html">
         </link>
         <updated>2019-08-31T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>1Hive recently received an Aragon Nest <a href="https://github.com/aragon/nest/issues/168">grant</a> to build Dandelion Orgs, a set of Aragon applications and an organization template for deploying an Aragon DAO that is functionally similar to <a href="https://molochdao.com">MolochDAO</a>, but with the notable advantage of modularity and ex...</p>]]></summary>
+        <summary type="html"><![CDATA[<p>1Hive recently received an <a href="https://github.com/aragon/nest/issues/168">Aragon Nest grant</a> to build Dandelion Orgs. What are Dandelion Orgs you might ask? Dandelion Orgs are a suite of Aragon apps that, when combined, create an Aragon DAO that is functionally similar to <a href="https://molochdao.com">MolochDAO</a>. Unlike MolochD...</p>]]></summary>
         <author>
             <name>1Hive team</name>
             <uri>https://github.com/1hive</uri>
@@ -50,7 +50,7 @@
         <link href="http://1hive.org/blog/2017/07/04/introducing-hive-commons.html">
         </link>
         <updated>2017-07-04T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/introducing-hive-commons-95dad77814bb">Introducing Hive Commons</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, and goals of...</p></blockquote>]]></summary>
+        <summary type="html"><![CDATA[<blockquote> <p>⚠️ This is a repost of the <a href="https://medium.com/hive-commons/introducing-hive-commons-95dad77814bb">Introducing Hive Commons</a> post. While some of the details and references in the post are no longer relevant, the overall message is important. Hopefully this provides more insight into the foundation, intention, and goals of ...</p></blockquote>]]></summary>
         <author>
             <name>Luke Duncan</name>
             <uri>https://github.com/lkngtn</uri>
