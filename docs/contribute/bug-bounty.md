@@ -40,7 +40,7 @@ In scope for the bug bounty are all the smart contract components of the 1Hive a
 - [Token Request](https://github.com/1Hive/token-request-app)
 - [Time Lock](https://github.com/1Hive/time-lock-app)
 - [Dandelion Voting](https://github.com/1Hive/dandelion-voting-app)
-- [Token Balance Orace](https://github.com/1Hive/token-oracle)
+- [Token Balance Oracle](https://github.com/1Hive/token-oracle)
 - [Dandelion Org Template](https://github.com/1Hive/dandelion-org)
 
 All solidity code in the `contracts` directories is eligible for the bug bounty, with a few exceptions:
