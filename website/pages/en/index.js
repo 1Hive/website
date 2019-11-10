@@ -3,13 +3,66 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  * @format
- */
+ */ 
 
 const React = require('react');
 
+const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+const projects = [ 
+  {
+    name: 'Dandelion Voting',  
+    icon: 'img/projects/dandelion-voting.svg',
+    url: 'projects/dandelion-orgs/voting-dissent-oracle',
+    description: 'Voting app used to create and participate in votes and enable an Organization to restrict voters from performing actions'
+  },
+  {
+    name: 'Time Lock',
+    icon: 'img/projects/time-lock.svg',
+    url: 'projects/dandelion-orgs/time-lock-app',
+    description: 'Require users to lock tokens for a configurable period of time in order to forward an intent'
+  },
+  { 
+  name: 'Token Request',
+  icon: 'img/projects/token-request.svg',
+  url: 'projects/dandelion-orgs/token-request-app',
+  description: "Allow users to create a request for Organization's tokens in exchange for payment"
+  },
+  {
+    name: 'Redemptions',
+    icon: 'img/projects/redemptions.svg',
+    url: 'projects/dandelion-orgs/redemptions-app',
+    description: "Redeem tokens in exchange for a proportional amount of the organization's eligible assets"
+  },
+  {
+    name: 'Token Balance Oracle',
+    icon: 'img/projects/token-oracle.svg',
+    url: 'https://github.com/1Hive/token-oracle',
+    description: 'ACL Oracle that checks if an address holds a minimum required balance of a certain token.'
+  },
+  {
+    name: 'Dandelion Template',
+    icon: 'img/projects/dandelion-template.svg',
+    url: 'https://github.com/1Hive/dandelion-org',
+    description: 'Facilitate collaboration by providing an organization structure that makes it easy for contributors to simply part ways when disagreements occur.'
+  },
+  {
+  name: 'Conviction Voting',
+  icon: 'img/projects/conviction-voting.svg',
+  url: 'https://github.com/1Hive/conviction-voting-app',
+  description: 'Allocate funds on proposals based on the conviction an entire organization has on them.'
+  },
+  {
+    name: 'Apiary',
+    icon: 'img/projects/apiary.svg',
+    url: 'https://github.com/1Hive/apiary',
+    description: 'Aragon DAO explorer. Discover, explore, and participate in Aragon organizations more effectively.'
+  }
+]
+
 
 // The Main Component
-class Index extends React.Component {
+class Index extends React.Component { 
   render() {
 
 		// Splash Component
@@ -17,31 +70,52 @@ class Index extends React.Component {
 			return (
         <div className="splash">
           <div className="content">
-            <h1>Helping Open Source Communities Thrive</h1>
-            <h2>
-              1Hive is a decentralized autonomous organization working to grow an open source commons and improve open source sustainability.
-            </h2>
-            <div className="row">
-              <a
-                className="landing-btn primary"
-                href="https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0xc2555abaed3797b52248e814172d2bea6728e542">
-                Open 1Hive DAO
-              </a>
-              <a className="landing-btn" href="/contribute/welcome">
-                Learn more
-              </a>
-            </div>
-            <div className="slideshow">
-              <img src="img/slideshow/1_projects.png" className="splashScreen" />
-              <img src="img/slideshow/2_projects.png" className="splashScreen" />
-              <img src="img/slideshow/3_projects.png" className="splashScreen" />
-              <img src="img/slideshow/4_members.png" className="splashScreen" />
-            </div>
-            <div className="shadow" />
+            <img
+                src="/img/bee.svg" width="200"
+              />
+            <h1>
+              <b>1Hive</b> is creating tools and processes to improve online collaboration and help digital communities thrive.  
+            </h1>
           </div>
         </div>
 			)
-		}
+    }
+    
+    // Projects Component
+		function Posts() { 
+			return (
+        <section className='posts'>
+          <div className="wrapper col">
+            <div style={{ padding: '50px 0' }}>
+              <h4>Recent posts</h4>
+              <div>
+                <div className='post'>
+                  <div>
+                    <img src='img/projects/apiary.png'/>
+                  </div>
+                  <div>
+                    <h2>Introducing Apiary: an Aragon Network Explorer</h2>
+                    <span>{description}</span>
+                  </div>
+                </div>
+                <div className='post'>
+                  <div>
+                    <h2>Dandelion is now available on Rinkeby for testing</h2>
+                    <span>{description}</span>
+                  </div>
+                  <div style={{textAlign: 'right'}}>
+                    <img src='img/projects/template.svg'/>
+                  </div>
+                </div>
+              </div>
+              <div className='see-all'>
+                <a href="blog">All posts</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      )
+    }
 
 
 		// First Content Component
@@ -64,7 +138,7 @@ class Index extends React.Component {
             </a>
           </div>
         </div>
-			)
+			)  
 		}
 
 		// Second Content Component
@@ -111,41 +185,53 @@ class Index extends React.Component {
               href="/docs/contribute/welcome">
               Learn more
             </a>
-          </div>
+          </div> 
         </div>
 			)
-		}
-
+    }
+    
 		// Projects Component
-		function Projects() {
+		function Projects() { 
 			return (
-        <div className="wrapper col projects-wrapper">
-          <div className="projects" align="center">
-            <h4>Projects</h4>
-						<h3>Our Garden</h3>
-            <ul>
-              <li>
-                <span><a href="/projects/dandelion-orgs/dandelion-overview"><img src="img/flowers/poppy.png" /></a></span>
-                <h5>Dandelion Orgs</h5>
-                </li>
-              <li>
-                <span><a href="/projects/commons-license"><img src="img/flowers/chrysanthemum.png" /></a></span>
-								<h5>Commons License</h5>
-                </li>
+        <section className="projects">
+          <div className='wrapper col'>
+            <h4>Our projects</h4> 
+            <ul className='grid'>
+              {projects.map((project, index) => {
+                return (
+                  <li key={index}>
+                    <a href={project.url}>
+                    <div className={`project flex ${project.name.toLowerCase().split(' ').join('-')}`}>
+                      <img src={project.icon} alt={project.name}/>
+                      <div className='description'>
+                        <h2>{project.name}</h2>
+                        <span>{project.description}</span>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+                )
+              })}
             </ul>
+            <div className='see-all'>
+              <a href="/projects/dandelion-orgs/dandelion-overview">All projects</a>
+            </div>
           </div>
-        </div>
+        </section>
 			)
 		}
 
 		// Return The Components
     return (
-      <div>
-				<Splash />
-				<Content1 />
-				<Content2 />
-				<Content3 />
-				<Projects />
+      <div className='main'>
+        <Splash />
+        <Posts />
+        <div>
+          <Content1 />
+          <Content2 />
+          <Content3 />
+        </div>
+        <Projects />
       </div>
     );
   }

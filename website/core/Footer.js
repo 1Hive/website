@@ -24,44 +24,51 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
-          </a>
+        <section className="wrapper sitemap">
           <div>
-            <h5>Projects</h5>
-
+            <a href={this.props.config.baseUrl} className="nav-home">
+              {this.props.config.footerIcon && (
+                <img
+                  src={this.props.config.baseUrl + this.props.config.footerIcon}
+                  alt={this.props.config.title}
+                  width="66"
+                  height="58"
+                />
+              )}
+            </a>
+          </div>
+          <div> 
+            <h5>Community</h5>
+            <a href="https://keybase.io/team/1hive">Keybase</a>
+            <a href="https://github.com/1hive">GitHub</a>
+            <a href="https://twitter.com/1HiveOrg">Twitter</a>
+            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            {/* <a href={this.docUrl('contribute/welcome', this.props.language)}>
+              Contributors Guide
+            </a>
+            <a href={this.docUrl('contribute/keybase', this.props.language)}>Project Chat</a>
+            <a href="https://github.com/1hive">GitHub</a> */}
+          </div>
+          <div>
+            <h5>Contributors</h5>
             <a href={this.docUrl('projects/dandelion-orgs/dandelion-overview', this.props.language)}>
               Dandelion Orgs
             </a>
             <a href={this.docUrl('projects/commons-license', this.props.language)}>
-              Commons License
+              Governance
             </a>
-
           </div>
           <div>
-            <h5>Community</h5>
-            <a href={this.docUrl('contribute/welcome', this.props.language)}>
-              Contributors Guide
-            </a>
-            <a href={this.docUrl('contribute/keybase', this.props.language)}>Project Chat</a>
-            <a href="https://github.com/1hive">GitHub</a>
-
+            <h5>Tools</h5>
+            <a href="https://github.com/1Hive/apiary">Apiary</a>
           </div>
           <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            <h5>Sponsors</h5>
+            <a href="https://aragon.org/">Aragon</a>
           </div>
         </section>
 
-        <section className="copyright">{this.props.config.copyright}</section>
+        {/* <section className="copyright">{this.props.config.copyright}</section> */}
       </footer>
     );
   }

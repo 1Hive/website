@@ -23,24 +23,34 @@
 @media only screen and (min-width: 1500px) {
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
-    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+body {
+  --text-color: #637381;
+}
+
+.grid {
+  --repeat: auto-fit;
+}
+@media (min-width: calc(500 * 2px)) {
+  .grid {
+    --repeat: 2;
+  }
+}
+
+@media body, h1, h2, h3, h4, h5, h6 {
+  font-family: "San Francisco", -apple-system, BlinkMacSystemFont,
+    ".SFNSText-Regular", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main {
+  background: linear-gradient(#6da9e2, #c7def4);
 }
 
 .headerTitleWithLogo {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .splash {
   min-height: 700px;
-  background: linear-gradient(#6da9e2, #c7def4);
   text-align: center;
   color: white;
   position: relative;
@@ -49,12 +59,15 @@ h6 {
 
 .splash h1 {
   color: white;
-  font-size: 44px;
-  line-height: 100%;
+  font-size: 36px;
   margin-top: 15px;
   margin-bottom: 25px;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 1px;
+}
+
+.splash h1 b {
+  font-weight: 400;
 }
 
 .splash h2 {
@@ -67,6 +80,21 @@ h6 {
   line-height: 140%;
   max-width: 750px;
   letter-spacing: 1px;
+}
+
+.splash .content {
+  position: relative;
+}
+
+.splash .content::after {
+  display: block;
+  height: 1px;
+  left: 25%;
+  right: 25%;
+  bottom: 20px;
+  background: #dbeeff;
+  content: "";
+  position: absolute;
 }
 
 .landing-btn {
@@ -103,6 +131,52 @@ h6 {
   bottom: 0;
   height: 15px;
   z-index: 2;
+}
+
+.posts {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px; */
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.post {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.post:first-child::after {
+  display: block;
+  height: 1px;
+  left: 15%;
+  right: 15%;
+  bottom: 0;
+  background: #f1f1f1;
+  content: "";
+  position: absolute;
+}
+
+.post:first-child {
+  padding-top: 0;
+}
+
+.post:last-child {
+  padding-bottom: 0;
+}
+
+.post > div:nth-child(2) {
+  float: left;
+}
+
+.post div {
+  width: 100%;
+}
+
+.post div:first-child {
+  margin-right: 24px;
 }
 
 .center {
@@ -186,6 +260,7 @@ h6 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   padding: 50px 15px;
 }
 
@@ -223,11 +298,28 @@ h6 {
 
 footer.nav-footer {
   box-shadow: none;
-	/* original black footer */
-  background: #121020;
+  /* original black footer */
+  background: #e1e6ef;
   font-size: 15px;
 }
 
+.nav-footer .sitemap {
+  max-width: 1200px;
+}
+
+.nav-footer .sitemap h5,
+.nav-footer .sitemap a,
+.nav-footer .copyright {
+  color: var(--text-color);
+}
+
+.nav-footer .sitemap a {
+  font-size: 13px;
+}
+
+.nav-footer .sitemap a:hover {
+  color: #7c8fa0;
+}
 nav.toc .toggleNav,
 nav.toc .toggleNav .navGroup.navGroupActive {
   background: transparent;
@@ -290,6 +382,9 @@ pre code {
 .mainContainer {
   font-size: 1em;
   line-height: 100%;
+}
+.wrapper {
+  max-width: 1200px;
 }
 
 .mainContainer .wrapper .post h1,
@@ -374,8 +469,8 @@ footer .sitemap {
   overflow: hidden;
 }
 
-footer .sitemap .nav-home,
-footer .fbOpenSource {
+.nav-footer .sitemap .nav-home,
+.nav-footer .fbOpenSource {
   opacity: 1;
 }
 
@@ -451,7 +546,7 @@ footer iframe {
   padding: 12px;
 }
 
-.navListItem a[href='/docs/features/index.html'] {
+.navListItem a[href="/docs/features/index.html"] {
   /* Hide sidebar link to "Features"-pages, because it is linked in header */
   display: none !important;
 }
@@ -467,7 +562,7 @@ footer iframe {
   right: 25%;
   bottom: -10px;
   background: #f0f0f0;
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -492,35 +587,133 @@ footer iframe {
   color: inherit;
 }
 
-div.projects-wrapper {
-  text-align: center;
+.garden {
+  position: absolute;
 }
 
 .projects {
-  display: inline-block;
-  padding-bottom: 20px;
+  padding: 70px 0;
+  background: white;
 }
 
-.projects ul {
-  list-style: none;
+section .col h4 {
+  color: #252a2e;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-weight: 200;
+  font-size: 22px;
+  opacity: 1;
+  text-transform: none;
 }
 
-.projects ul li {
-  display: inline;
+.see-all {
+  text-align: right;
+}
+
+.see-all a {
+  color: #252a2e;
+  font-weight: 200;
+}
+
+.see-all:hover a {
+  color: #5c666d;
+}
+
+.grid {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
   list-style: none;
-  float: left;
+  display: grid;
+  grid-template-columns: repeat(
+    var(--repeat, auto-fit),
+    minmax(calc(400px), 1fr)
+  );
+  grid-gap: 40px 45px;
+}
+
+.grid li {
+  margin: 0;
+  list-style: none;
   text-align: center;
-  margin-top: 0;
 }
 
-.projects ul li a {
+.project {
+  padding: 30px;
+  background: #ffffff;
+  color: #ffffff;
+  box-shadow: 0px 1px 3px 0px rgb(134, 134, 134, 0.7);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  height: 200px;
+}
+
+.project:hover {
+  transform: translateY(-1px);
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project .description {
+  text-align: left;
+  line-height: 31px;
+  font-weight: 200;
+}
+
+section h2 {
+  font-weight: 200;
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+section span {
+  font-size: 14px;
+}
+
+section .project span {
+  max-width: 350px;
   display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 100px;
 }
 
-.projects img{
-  /* padding: 25px; */
-	padding: 3vmin;
-  padding-bottom: 0px;
-  padding-top: 10px;
-  height: 100px;
+.project img {
+  margin-right: 32px;
+}
+
+.dandelion-voting {
+  background: linear-gradient(45deg, #757ae7, #afc9f1);
+}
+
+.time-lock {
+  background: linear-gradient(45deg, #ffe4b0, #fcc14c);
+}
+
+.token-request {
+  background: linear-gradient(45deg, #a3f9b4, #4ddac0);
+}
+
+.redemptions {
+  background: linear-gradient(45deg, #dc73c5, #b43b54);
+}
+
+.token-balance-oracle {
+  background: linear-gradient(45deg, #a80af4, #f994d0);
+}
+
+.dandelion-template {
+  background: linear-gradient(45deg, #a9bbf3, #8085f2);
+}
+
+.conviction-voting {
+  background: linear-gradient(45deg, #b082ef, #6c69f6);
+}
+
+.apiary {
+  background: linear-gradient(45deg, #9ba9f2, #c2dbf3);
 }
