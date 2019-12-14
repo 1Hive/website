@@ -108,7 +108,7 @@ class Index extends React.Component {
             </p>
             <a
               className="learnmore"
-              href="/docs/contribute/welcome">
+              href="/contribute/welcome">
               Learn more
             </a>
           </div>
