@@ -1,7 +1,7 @@
 ---
-id: bug-bounty 
+id: bug-bounty
 sidebar_label: Bug Bounty
-title: 1Hive Bug Bounty 
+title: 1Hive Bug Bounty
 ---
 
 A bug bounty for 1Hive apps is now live. We intend for hackers to look for smart contract vulnerabilities in our system that can lead to a loss of funds, locked DAOs, or a degraded user experience.
@@ -17,7 +17,7 @@ Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/
 | Medium      | CVSS 4.0 - 6.9  | 100 - 250     |
 | Low         | CVSS 1.0 - 3.9  | 50 - 100      |
 
-Rewards will be awarded at the sole discretion of the [1Hive BEEs](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211/0x3c16dc46b84a6647f8375235ca88dad2c27edb8b). Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in HONEY.
+Rewards will be awarded at the sole discretion of the [1Hive BEEs](https://mainnet.aragon.org/#/beehive/0xc893a50f947bdacb4ed66c895cdf545dedb93a9f/). Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in HONEY.
 
 For this initial bug bounty program, there is a **maximum bounty pool of TBD**.
 
@@ -25,11 +25,11 @@ The bug bounty program is ongoing.
 
 ## Reporting
 
-Please responsibly disclose any findings to the development team. The best way to reach us immediately is on the `#dev` channel of our [Keybase chat](https://1hive.org/contribute/keybase). Simply say that you found a potential vulnerability and would like to discuss it with the dev team. We will then reach out to discuss details in private. 
+Please responsibly disclose any findings to the development team. The best way to reach us immediately is on the `#dev` channel of our [Keybase chat](https://1hive.org/contribute/keybase). Simply say that you found a potential vulnerability and would like to discuss it with the dev team. We will then reach out to discuss details in private.
 
-> DO NOT post the exploit directly to the #dev channel! 
+> DO NOT post the exploit directly to the #dev channel!
 
-If your discovery qualifies for the bug bounty we will work with you to get it patched and issue your reward within 24hrs of initiating the patch. We will then give you credit (assuming you want that) by creating a blog post detailing the vulnerability, how we fixed it, and how you helped. 
+If your discovery qualifies for the bug bounty we will work with you to get it patched and issue your reward within 24hrs of initiating the patch. We will then give you credit (assuming you want that) by creating a blog post detailing the vulnerability, how we fixed it, and how you helped.
 
 Failure to follow this reporting protocol will result in a finding being ineligible for any bounties.
 
@@ -37,11 +37,11 @@ Failure to follow this reporting protocol will result in a finding being ineligi
 
 In scope for the bug bounty are all the smart contract components of the 1Hive apps. These can be found in the following repositories:
 
-### [Redemptions](https://github.com/1Hive/redemptions-app/tree/master/contracts) 
+### [Redemptions](https://github.com/1Hive/redemptions-app/tree/master/contracts)
 
 All solidity code in the `contracts` directory is eligible for the bug bounty, with a few exceptions:
-- excluding `contracts/lib/` 
-- excluding `contracts/misc/` 
+- excluding `contracts/lib/`
+- excluding `contracts/misc/`
 - excluding `contracts/test/`
 
 This includes the current as well as [future patch versions](https://github.com/1hive/redemptions-app/releases).
@@ -74,4 +74,3 @@ Terms for eligible bounties
 - Only unknown vulnerabilities will be awarded a bounty; in case of duplicate reports, the first report will be awarded the bounty.
 - Public disclosure of the vulnerability, before explicit consent from 1Hive to do so, will make the vulnerability ineligible for a bounty.
 - Attempting to exploit the vulnerability in a public Ethereum network will also make it ineligible for a bounty.
-

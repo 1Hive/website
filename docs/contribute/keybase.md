@@ -32,13 +32,14 @@ The following are the main channels we use to coordinate.
 
 | Channel   |     Topic      |
 |----------|-------------|
+| #1hive-dao | Anything related to the 1Hive DAO settings or structure 🖧 |
 | #announcements |  *Read only* intended only for announcements 📣 |
 | #commons | Discussion related to building a sustainable open source commons 🌼 |
-| #communication | Discussion related to connecting with people who believe in the 1Hive mission 🚀 |
-| #dao | Anything related to the 1Hive DAO settings or structure 🖧 |
+| #communication | Discussion related to our website, blog, wiki, and to connecting with people who believe in the 1Hive mission 🚀 |
 | #dev | Discussion related to software development 💻 |
 | #general | A catchall for discussion that doesn't fit elsewhere 🤙 |
 | #intros | A great place to say hi for the first time 👋  |
 | #legal | Discussion related to legal hacking and software licenses ⚖|
 | #nominations| Nominate members for weekly community allocations 🙏 |
-| #website| Discussion related to our website, blog, and wiki 🌎 |
+
+Each [1Hive project](projects) has its own chat channel too.
