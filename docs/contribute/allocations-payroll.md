@@ -10,7 +10,7 @@ These types of contributions are critical to the success of 1Hive and must also 
 
 On a bi-weekly basis, we use the **Allocations** application to distribute a fixed amount of `Honey` between a set of nominated recipients.
 
-The weekly allocations amount is determined by `Bee` vote, and then split between nominees using the **Dot Voting** application.
+The bi-weekly allocations amount is determined by `Bee` vote, and then split between nominees using the **Dot Voting** application.
 
 Members of the organization can nominate anyone who has contributed value to the DAO by saying so in the keybase #nominations channel.
 
