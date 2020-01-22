@@ -36,15 +36,17 @@ Failure to follow this reporting protocol will result in a finding being ineligi
 ## Scope
 
 In scope for the bug bounty are all the smart contract components of the 1Hive apps. These can be found in the following repositories:
+- [Redemptions](https://github.com/1Hive/redemptions-app/)
+- [Token Request](https://github.com/1Hive/token-request-app)
+- [Time Lock](https://github.com/1Hive/time-lock-app)
+- [Dandelion Voting](https://github.com/1Hive/dandelion-voting-app)
+- [Token Balance Oracle](https://github.com/1Hive/token-oracle)
+- [Dandelion Org Template](https://github.com/1Hive/dandelion-org)
 
-### [Redemptions](https://github.com/1Hive/redemptions-app/tree/master/contracts) 
-
-All solidity code in the `contracts` directory is eligible for the bug bounty, with a few exceptions:
+All solidity code in the `contracts` directories is eligible for the bug bounty, with a few exceptions:
 - excluding `contracts/lib/` 
 - excluding `contracts/misc/` 
 - excluding `contracts/test/`
-
-This includes the current as well as [future patch versions](https://github.com/1hive/redemptions-app/releases).
 
 ## Out of scope
 
