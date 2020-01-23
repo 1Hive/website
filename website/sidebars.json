@@ -4,7 +4,7 @@
       "contribute/welcome",
       "contribute/keybase",
       "contribute/membership",
-      "contribute/projects-tasks",
+      "contribute/projects",
       "contribute/allocations-payroll",
       "contribute/rewards-redemptions",
 			"contribute/bug-bounty",
@@ -20,6 +20,29 @@
           "ids": ["projects/dandelion-orgs/dandelion-overview","projects/dandelion-orgs/redemptions-app","projects/dandelion-orgs/token-request-app" , "projects/dandelion-orgs/lock-app", "projects/dandelion-orgs/delay-app", "projects/dandelion-orgs/voting-dissent-oracle"]
         },
       "projects/commons-license"
+    ]
+  },
+  "wiki": {
+    "Wiki": [
+      {
+        "type": "subcategory",
+        "label": "Guides",
+        "ids": [
+          "wiki/guides/getting-started",
+          "wiki/guides/1hive"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Concepts",
+        "ids": [
+          "wiki/concepts/bonding-curve",
+          "wiki/concepts/cryptoeconomics",
+          "wiki/concepts/harberger-taxes",
+          "wiki/concepts/proxy-voting",
+          "wiki/concepts/tcr"
+        ]
+      }
     ]
   }
 }
