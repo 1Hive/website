@@ -46,6 +46,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'contribute/welcome', label: 'Contribute'},
     {doc: 'projects/dandelion-orgs/dandelion-overview', label: 'Projects'},
+    {doc: 'wiki/guides/getting-started', label: 'Wiki'},
     {blog: true, label: 'Blog'},
   ],
 

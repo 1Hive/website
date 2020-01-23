@@ -4,7 +4,7 @@ sidebar_label: Getting Started
 title: Getting Started With Blockchain Basics
 ---
 
-1Hive is a community driven project built on Aragon using Autark's TPS apps to create positive-sum incentive mechanisms that are run and enforced by the security of the Ethereum blockchain. If that sounds like gibberish to you, good! This page explains all those concepts in more detail and provides tools and resources you need to get started 🏁
+1Hive is a community driven project built on Aragon using Autark's Open Enterprise apps to create positive-sum incentive mechanisms that are run and enforced by the security of the Ethereum blockchain. If that sounds like gibberish to you, good! This page explains all those concepts in more detail and provides tools and resources you need to get started 🏁
 
 <br>
 
@@ -35,34 +35,34 @@ Aragon is a project that wants to empower people and create more freedom in the 
 
 The [website](https://aragon.org/) is a great place to start to learn about all things Aragon. This [blog](https://blog.aragon.one/) is awesome too. There's also a [monthly newsletter](https://monthly.aragon.org/).
 
-There's excellent dev docs at [hack.aragon](https://hack.aragon.org/), but they are aimed at a more technical audience.
+There's excellent dev docs at [hack.aragon.org](https://hack.aragon.org/), but they are aimed at a more technical audience.
 
-If you want to learn more about the architecture of Aragon in general, the [Wiki](https://wiki.aragon.org/) is probably the best (and the most boring) way to familiarize yourself with Aragon. There are also [user guides](https://wiki.aragon.org/tutorials/Aragon_User_Guide/), but I don't know of anyone who's actually used them.
+If you want to learn more about the architecture of Aragon in general, the [Wiki](https://wiki.aragon.org/) is probably the best (and the most boring) way to familiarize yourself with Aragon. There is also the [Aragon Help Desk](https://help.aragon.org/).
 
-### [Using Aragon](https://wiki.aragon.org/tutorials/Aragon_User_Guide/#0-introduction)
+### [Using Aragon](https://help.aragon.org/category/11-introduction)
 
-Start with the [Aragon user guide](https://wiki.aragon.org/tutorials/Aragon_User_Guide/#0-introduction).
+Start with the [Aragon user guide](https://help.aragon.org/category/11-introduction).
 
-The client is the thing you use to interact with software. In this case that's [the Aragon app](https://github.com/aragon/aragon) itself. The UI is fairly standard, but takes a some getting used to at first. While you can go to https://mainnet.aragon.org/#/ to roll your own DAO, it's not very fun exploring a decentralized organization of 1. Luckily you don't have to! [1Hive has DAO that's live and running](https://rinkeby.aragon.org/#/0xe520428C232F6Da6f694b121181f907931fD2211). Feel free to click around and explore how the various apps correspond to the spec outline in the [handbook](https://1hive.github.io/mvp/docs/guides/1hive). Don't worry, unless you're a member of the hive that has voting power you can't break anything, so any button is fair game.
+The client is the thing you use to interact with software. In this case that's [the Aragon app](https://github.com/aragon/aragon) itself. The UI is fairly standard, but takes a some getting used to at first. While you can go to https://mainnet.aragon.org/#/ to roll your own DAO, it's not very fun exploring a decentralized organization of 1. Luckily you don't have to! [1Hive has DAO that's live and running](https://mainnet.aragon.org/#/beehive). Feel free to click around and explore how the various apps correspond to the spec outline in the [handbook](https://1hive.org/wiki/guides/1hive). Don't worry, unless you're a member of the hive that has voting power you can't break anything, so any button is fair game.
 
-### [Aragon Apps](https://wiki.aragon.org/tutorials/Aragon_User_Guide/#3-aragon-apps)
+### [Aragon Apps](https://help.aragon.org/article/16-about-aragon-apps)
 
 The Aragon Core team officially ships and maintains a few apps. Good luck! 🍀
 
 https://github.com/aragon/aragon-apps/
 
-https://wiki.aragon.org/tutorials/Aragon_User_Guide/#3-aragon-apps
+https://help.aragon.org/article/16-about-aragon-apps
 
 <br>
 
 ## [Autark 🐛](https://www.autark.xyz/)
 Autark is passionate about building toward a world where progress is accelerated by making it easier and more fair to coordinate on shared visions of the future. We contribute apps to the Aragon ecosystem that allow human autonomy to flourish and enable open source mega-projects.
 
-### [That Planning Suite](https://www.autark.xyz/aragon-apps)
+### [Open Suite](https://www.autark.xyz/apps)
 
-### [Roll Your Own DAO W TPS!](https://rinkeby.autark.xyz/#/)
+### [Roll Your Own DAO W Open Enterprise!](https://mainnet.aragon.org/)
 
-### [Integrate TPS With A Previously Deployed DAO](https://github.com/AutarkLabs/planning-suite/blob/master/docs/GETTING_STARTED.md)
+### [Integrate Open Enterprise With A Previously Deployed DAO](https://github.com/AutarkLabs/open-enterprise/blob/master/docs/GETTING_STARTED.md)
 
 
 <br>
