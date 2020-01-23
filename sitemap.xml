@@ -25,20 +25,11 @@
 <url> <loc>http://1hive.org/projects/dandelion-orgs/token-request-app</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/projects/dandelion-orgs/token-request-app" /> </url>
 <url> <loc>http://1hive.org/projects/dandelion-orgs/voting-dissent-oracle</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/projects/dandelion-orgs/voting-dissent-oracle" /> </url>
 <url> <loc>http://1hive.org/projects/projects-welcome</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/projects/projects-welcome" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/allocation</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/allocation" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/dot-voting</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/dot-voting" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/finance</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/finance" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/projects</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/projects" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/token-manager</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/token-manager" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/vault</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/vault" /> </url>
-<url> <loc>http://1hive.org/wiki/apps/voting</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/apps/voting" /> </url>
 <url> <loc>http://1hive.org/wiki/concepts/bonding-curve</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/concepts/bonding-curve" /> </url>
 <url> <loc>http://1hive.org/wiki/concepts/cryptoeconomics</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/concepts/cryptoeconomics" /> </url>
 <url> <loc>http://1hive.org/wiki/concepts/harberger-taxes</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/concepts/harberger-taxes" /> </url>
 <url> <loc>http://1hive.org/wiki/concepts/proxy-voting</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/concepts/proxy-voting" /> </url>
 <url> <loc>http://1hive.org/wiki/concepts/tcr</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/concepts/tcr" /> </url>
-<url> <loc>http://1hive.org/wiki/guides/1Hive</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/guides/1Hive" /> </url>
-<url> <loc>http://1hive.org/wiki/guides/democracy</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/guides/democracy" /> </url>
+<url> <loc>http://1hive.org/wiki/guides/1hive</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/guides/1hive" /> </url>
 <url> <loc>http://1hive.org/wiki/guides/getting-started</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/guides/getting-started" /> </url>
-<url> <loc>http://1hive.org/wiki/guides/multisig</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://1hive.org/wiki/guides/multisig" /> </url>
 </urlset>

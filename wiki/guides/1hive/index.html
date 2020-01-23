@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>1Hive Guide For BEEs · 1Hive</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;How to do stuff in the 1Hive DAO if you&#x27;re a BEE&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="1Hive Guide For BEEs · 1Hive"/><meta property="og:type" content="website"/><meta property="og:url" content="http://1hive.org/"/><meta property="og:description" content="&lt;p&gt;How to do stuff in the 1Hive DAO if you&#x27;re a BEE&lt;/p&gt;
+"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/bee.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="http://1hive.org/blog/atom.xml" title="1Hive Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="http://1hive.org/blog/feed.xml" title="1Hive Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-blocks-buttons.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/bee.png" alt="1Hive"/><h2 class="headerTitleWithLogo">1Hive</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/contribute/welcome" target="_self">Contribute</a></li><li class=""><a href="/projects/dandelion-orgs/dandelion-overview" target="_self">Projects</a></li><li class="siteNavGroupActive"><a href="/wiki/guides/getting-started" target="_self">Wiki</a></li><li class=""><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Wiki</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Wiki</h3><ul class=""><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Guides</h4><ul><li class="navListItem"><a class="navItem" href="/wiki/guides/getting-started">Getting Started</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/wiki/guides/1hive">1Hive</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Concepts</h4><ul><li class="navListItem"><a class="navItem" href="/wiki/concepts/bonding-curve">Bonding Curve</a></li><li class="navListItem"><a class="navItem" href="/wiki/concepts/cryptoeconomics">Cryptoeconomics</a></li><li class="navListItem"><a class="navItem" href="/wiki/concepts/harberger-taxes">Harberger Taxes</a></li><li class="navListItem"><a class="navItem" href="/wiki/concepts/proxy-voting">Proxy Voting</a></li><li class="navListItem"><a class="navItem" href="/wiki/concepts/tcr">TCR</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/1Hive/website/blob/master/docs/wiki/guides/1hive.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">1Hive Guide For BEEs</h1></header><article><div><span><p>How to do stuff in the 1Hive DAO if you're a BEE</p>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="adding-tokens-to-metamask"></a><a href="#adding-tokens-to-metamask" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding tokens to Metamask 🐝🦊🍯</h2>
+<p>Adding HONEY tokens to Metamask requires a few clicks.</p>
+<ul>
+<li>open Metamask</li>
+<li>click on the left side menu button (it has 3 horizontal lines)</li>
+<li>scroll to the bottom of the window and click &quot;Add Token&quot;</li>
+<li>choose the Custom Token option</li>
+<li>enter the HONEY token contract address: 0x62f920675BaE292D2b14B4F754A2e5724B9BCc54</li>
+<li>the other sections should autofill</li>
+<li>click Next</li>
+<li>click Add Token</li>
+</ul>
+<p>You should see your HONEY tokens in Metamask!</p>
+<p>You can also follow this same process to add your BEE token, just replace the token contract address with the BEE token.</p>
+<h3><a class="anchor" aria-hidden="true" id="bee-token-contract-address"></a><a href="#bee-token-contract-address" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BEE Token Contract Address</h3>
+<ul>
+<li>0x7700423931Cc53Ac773Ea9129e9Bd4b2e789e63e</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="honey-token-contract-address"></a><a href="#honey-token-contract-address" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HONEY Token Contract Address</h3>
+<ul>
+<li>0x62f920675BaE292D2b14B4F754A2e5724B9BCc54</li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="voting"></a><a href="#voting" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Voting 🗳️</h2>
+<p>Votes are how 1Hive makes decisions. Votes can also be used to ask a question and get feedback from the hive. In this section we'll explore how to do that using the BEE and HONEY voting apps.</p>
+<h3><a class="anchor" aria-hidden="true" id="opening-the-voting-app"></a><a href="#opening-the-voting-app" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Opening the Voting app</h3>
+<p>To open the voting app, <a href="https://mainnet.aragon.org/#/beehive">open the 1Hive DAO</a>, click on the Voting app on the left side menu bar, and select the app you'd like to use (BEE or HONEY). This will display all the open and past votes for that token in the main window.</p>
+<p>Note: BEE token votes are different from HONEY token votes. Participation in either is limited to accounts that hold that token.</p>
+<blockquote>
+<p>Currently, HONEY has no Voting app, and only BEEs can vote.</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="creating-a-new-signalling-vote"></a><a href="#creating-a-new-signalling-vote" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a new signalling vote</h3>
+<p>To create a new vote, open the voting app and click on the New Vote button in the top right section of the main window. This will allow you to ask a yes/no question to the group. Type your question into the box, click begin question, click create transaction, and pay the tx fee to confirm it and add it to the DAO. People can then vote yay or nay on this question. This is useful for gathering sentiment on how the community feels about something, or to inform decisions that cannot be enforced via code.</p>
+<h3><a class="anchor" aria-hidden="true" id="creating-other-types-of-votes"></a><a href="#creating-other-types-of-votes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating other types of votes</h3>
+<p>Many actions within the DAO require a vote. To see all the actions who's permissions are tied to the voting app, click on the Permissions app on the left sidebar, then click on each app to see the permissions. You'll see the permissions that have been set on the app under &quot;Permissions set on this app&quot;.</p>
+<p>To actually create a vote to do stuff with these apps you'll have to go to the app and select the action you want to take. This will create a vote, and once you confirm a tx to add it to the DAO, that action will be available for BEE or HONEY token holders to vote on. This is required for things like changing permissions in the org, requesting tokens, and almost everything else.</p>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="requesting-permissions-from-aragon-apps"></a><a href="#requesting-permissions-from-aragon-apps" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requesting Permissions From Aragon Apps 🦅</h2>
+<p>To do things with Aragon DAOs you need permission. To get permission, either you have to build the DAO yourself and give yourself permission, or you have to request permission from the DAO. The 1Hive DAO makes decisions via voting, so in order to gain or lose permissions there needs to be a vote. This section will explain how to create a vote to give yourself permissions for a role, such as to become an <a href="/contribute/roles-responsibilities#allocations-admin">Allocations Admin</a>.</p>
+<h3><a class="anchor" aria-hidden="true" id="checking-app-permissions"></a><a href="#checking-app-permissions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Checking App Permissions</h3>
+<p>To see all the actions who's permissions are tied to the voting app, click on the Permissions app on the left sidebar, then click on each app to see the permissions. You'll see the permissions that have been set on the app under &quot;Permissions set on this app&quot;.</p>
+<h3><a class="anchor" aria-hidden="true" id="requesting-permissions"></a><a href="#requesting-permissions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requesting Permissions</h3>
+<p>To request permissions, first talk to the group about it on Keybase to explain the role you want to take on, why you think you're a good fit, and what permissions you'll need to do that (permissions associated with roles can be found in the <a href="/contribute/roles-responsibilities">Roles and Responsibilities</a> page). Then, once you have rough consensus from the group on your request, open the Permissions app and click New Permissions in the top right of the main window. This will ask you which app you'd like to set permissions for, who you'd like to give them to, and what action you'd like to set the permissions for. Any BEE can create a vote to change permissions at any time, but most often a BEE will be requesting to give themselves permission to fulfill a role in the community. This means that in the &quot;grant permissions to&quot; section you'll choose &quot;Custom Address...&quot; and then add your address associated with the DAO.</p>
+<p>Once you configure the app, address, and action permission  you want click &quot;add permission&quot;. Then once you pay the tx fee a vote will be created for the community to approve or deny. This ensures that all decisions are driven by the community, and hopefully as a result, are the best for the community.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/wiki/guides/getting-started"><span class="arrow-prev">← </span><span>Getting Started</span></a><a class="docs-next button" href="/wiki/concepts/bonding-curve"><span>Bonding Curve</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#adding-tokens-to-metamask">Adding tokens to Metamask 🐝🦊🍯</a><ul class="toc-headings"><li><a href="#bee-token-contract-address">BEE Token Contract Address</a></li><li><a href="#honey-token-contract-address">HONEY Token Contract Address</a></li></ul></li><li><a href="#voting">Voting 🗳️</a><ul class="toc-headings"><li><a href="#opening-the-voting-app">Opening the Voting app</a></li><li><a href="#creating-a-new-signalling-vote">Creating a new signalling vote</a></li><li><a href="#creating-other-types-of-votes">Creating other types of votes</a></li></ul></li><li><a href="#requesting-permissions-from-aragon-apps">Requesting Permissions From Aragon Apps 🦅</a><ul class="toc-headings"><li><a href="#checking-app-permissions">Checking App Permissions</a></li><li><a href="#requesting-permissions">Requesting Permissions</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/bee.png" alt="1Hive" width="66" height="58"/></a><div><h5>Projects</h5><a href="/projects/dandelion-orgs/dandelion-overview">Dandelion Orgs</a><a href="/projects/commons-license">Commons License</a></div><div><h5>Community</h5><a href="/contribute/welcome">Contributors Guide</a><a href="/contribute/keybase">Project Chat</a><a href="https://github.com/1hive">GitHub</a></div><div><h5>More</h5><a href="/blog">Blog</a></div></section><section class="copyright">Copyright © 2020 1Hive</section></footer></div></body></html>
