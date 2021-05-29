@@ -17,7 +17,14 @@
         {
           "type": "subcategory",
           "label": "Dandelion Orgs",
-          "ids": ["projects/dandelion-orgs/dandelion-overview","projects/dandelion-orgs/redemptions-app","projects/dandelion-orgs/token-request-app" , "projects/dandelion-orgs/lock-app", "projects/dandelion-orgs/delay-app", "projects/dandelion-orgs/voting-dissent-oracle"]
+          "ids": [
+						"projects/dandelion-orgs/dandelion-overview",
+						"sync/redemptions-overview",
+						"projects/dandelion-orgs/token-request-app",
+						"projects/dandelion-orgs/lock-app",
+						"projects/dandelion-orgs/delay-app",
+						"projects/dandelion-orgs/voting-dissent-oracle"
+					]
         },
       "projects/commons-license"
     ]
